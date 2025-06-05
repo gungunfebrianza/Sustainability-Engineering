@@ -1735,3 +1735,369 @@ These standards provide a comprehensive framework for sustainability reporting a
 | Are there any data gaps or limitations in your diversity reporting? | Open-ended    | Text area        | String    | "Some remote workers haven't completed demographic surveys"  |
 | How do you handle employees who prefer not to disclose demographic information? | Open-ended    | Text area        | String    | "Counted separately as 'prefer not to say' category"         |
 | What steps are taken to ensure data privacy and confidentiality? | Open-ended    | Text area        | String    | "Anonymized reporting, secure data storage, limited access controls" |
+
+# GRI 406 Non-discrimination 
+
+| Question                                                     | Question Type   | Input Type   | Data Type | Example Answer                                               |
+| ------------------------------------------------------------ | --------------- | ------------ | --------- | ------------------------------------------------------------ |
+| **Policy and Governance**                                    |                 |              |           |                                                              |
+| Does your organization have a formal non-discrimination policy? | Yes/No          | Radio Button | Boolean   | Yes                                                          |
+| What protected characteristics does your non-discrimination policy cover? | Multiple Choice | Checkbox     | Array     | ["Race", "Gender", "Age", "Religion", "Sexual orientation", "Disability"] |
+| Who is responsible for overseeing non-discrimination compliance in your organization? | Open-ended      | Text Area    | String    | "Chief Human Resources Officer and Diversity & Inclusion Committee" |
+| How frequently is your non-discrimination policy reviewed and updated? | Single Choice   | Dropdown     | String    | "Annually"                                                   |
+| Are managers and employees trained on non-discrimination policies? | Yes/No          | Radio Button | Boolean   | Yes                                                          |
+| What is the frequency of non-discrimination training?        | Single Choice   | Dropdown     | String    | "Annual mandatory training for all employees"                |
+| **Incident Reporting and Management**                        |                 |              |           |                                                              |
+| How many discrimination incidents were reported during the reporting period? | Numerical       | Number Input | Integer   | 12                                                           |
+| How many discrimination incidents were investigated during the reporting period? | Numerical       | Number Input | Integer   | 12                                                           |
+| How many discrimination incidents were resolved during the reporting period? | Numerical       | Number Input | Integer   | 10                                                           |
+| What types of discrimination were reported? (by category)    | Multiple Choice | Checkbox     | Array     | ["Gender discrimination", "Racial discrimination", "Age discrimination"] |
+| How many incidents involved employees?                       | Numerical       | Number Input | Integer   | 8                                                            |
+| How many incidents involved customers/clients?               | Numerical       | Number Input | Integer   | 2                                                            |
+| How many incidents involved suppliers/business partners?     | Numerical       | Number Input | Integer   | 2                                                            |
+| What was the average time to resolve discrimination incidents? | Numerical       | Number Input | Float     | 45.5                                                         |
+| **Incident Breakdown by Protected Characteristics**          |                 |              |           |                                                              |
+| Number of incidents related to race/ethnicity discrimination | Numerical       | Number Input | Integer   | 3                                                            |
+| Number of incidents related to gender discrimination         | Numerical       | Number Input | Integer   | 4                                                            |
+| Number of incidents related to age discrimination            | Numerical       | Number Input | Integer   | 2                                                            |
+| Number of incidents related to religion/belief discrimination | Numerical       | Number Input | Integer   | 1                                                            |
+| Number of incidents related to sexual orientation discrimination | Numerical       | Number Input | Integer   | 1                                                            |
+| Number of incidents related to disability discrimination     | Numerical       | Number Input | Integer   | 1                                                            |
+| Number of incidents related to other characteristics         | Numerical       | Number Input | Integer   | 0                                                            |
+| **Remedial Actions and Outcomes**                            |                 |              |           |                                                              |
+| What remedial actions were taken for substantiated incidents? | Multiple Choice | Checkbox     | Array     | ["Employee counseling", "Policy revision", "Additional training", "Disciplinary action"] |
+| How many employees received disciplinary action for discrimination? | Numerical       | Number Input | Integer   | 3                                                            |
+| How many employees were terminated due to discrimination violations? | Numerical       | Number Input | Integer   | 1                                                            |
+| What compensation or remedies were provided to affected parties? | Open-ended      | Text Area    | String    | "Reinstatement, back pay, and formal apology provided in 2 cases" |
+| **Reporting Mechanisms**                                     |                 |              |           |                                                              |
+| What channels are available for reporting discrimination?    | Multiple Choice | Checkbox     | Array     | ["Anonymous hotline", "Online portal", "Direct supervisor", "HR department", "Ethics office"] |
+| Is anonymous reporting available?                            | Yes/No          | Radio Button | Boolean   | Yes                                                          |
+| Are third-party reporting mechanisms available?              | Yes/No          | Radio Button | Boolean   | Yes                                                          |
+| How is confidentiality maintained in the reporting process?  | Open-ended      | Text Area    | String    | "All reports handled by independent ethics office with strict confidentiality protocols" |
+| **Prevention and Monitoring**                                |                 |              |           |                                                              |
+| What proactive measures are in place to prevent discrimination? | Multiple Choice | Checkbox     | Array     | ["Regular bias training", "Diverse hiring panels", "Pay equity audits", "Inclusive leadership development"] |
+| How do you monitor for potential discrimination in hiring practices? | Open-ended      | Text Area    | String    | "Regular analysis of hiring data by demographics and external diversity audits" |
+| How do you monitor for potential discrimination in promotion practices? | Open-ended      | Text Area    | String    | "Annual review of promotion rates by demographic groups and bias-free promotion criteria" |
+| How do you monitor for potential discrimination in compensation? | Open-ended      | Text Area    | String    | "Annual pay equity analysis across all demographic groups and job levels" |
+| **Stakeholder Engagement**                                   |                 |              |           |                                                              |
+| Do you engage with external organizations on non-discrimination issues? | Yes/No          | Radio Button | Boolean   | Yes                                                          |
+| Which external organizations do you work with on discrimination prevention? | Open-ended      | Text Area    | String    | "National Association for the Advancement of Colored People, Human Rights Campaign, local disability advocacy groups" |
+| Do you participate in industry initiatives related to non-discrimination? | Yes/No          | Radio Button | Boolean   | Yes                                                          |
+| **Impact Assessment**                                        |                 |              |           |                                                              |
+| Have you conducted impact assessments on your non-discrimination practices? | Yes/No          | Radio Button | Boolean   | Yes                                                          |
+| What were the key findings from your most recent assessment? | Open-ended      | Text Area    | String    | "Identified need for improved accessibility accommodations and enhanced bias training for middle management" |
+| What improvements have been implemented based on assessments? | Open-ended      | Text Area    | String    | "Implemented new accessibility features, revised recruitment processes, and enhanced manager training programs" |
+| **Legal and Regulatory Compliance**                          |                 |              |           |                                                              |
+| Have there been any legal proceedings related to discrimination during the reporting period? | Yes/No          | Radio Button | Boolean   | No                                                           |
+| If yes, how many legal cases were filed?                     | Numerical       | Number Input | Integer   | 0                                                            |
+| What was the outcome of legal proceedings?                   | Open-ended      | Text Area    | String    | "N/A - No legal proceedings during this period"              |
+| What regulatory requirements does your organization follow?  | Multiple Choice | Checkbox     | Array     | ["Equal Employment Opportunity Commission guidelines", "Americans with Disabilities Act", "Title VII of Civil Rights Act"] |
+| **Communication and Transparency**                           |                 |              |           |                                                              |
+| How do you communicate your non-discrimination commitment to stakeholders? | Multiple Choice | Checkbox     | Array     | ["Corporate website", "Employee handbook", "Annual sustainability report", "Code of conduct"] |
+| Do you publicly report on discrimination incidents and responses? | Yes/No          | Radio Button | Boolean   | Yes                                                          |
+| How do you ensure transparency while maintaining confidentiality? | Open-ended      | Text Area    | String    | "Report aggregate data and anonymized case studies without identifying individuals involved" |
+
+# GRI 407 Freedom of Association and Collective Bargaining
+
+## Core Disclosure Requirements
+
+| Question                                                     | Question Type   | Input Type     | Data Type     | Example Answer                                               |
+| ------------------------------------------------------------ | --------------- | -------------- | ------------- | ------------------------------------------------------------ |
+| What is your organization's name?                            | Identification  | Text           | String        | "ABC Manufacturing Corp"                                     |
+| What reporting period does this data cover?                  | Temporal        | Date Range     | Date          | "January 1, 2024 - December 31, 2024"                        |
+| In which countries/regions does your organization operate?   | Geographic      | Multi-select   | Array[String] | ["United States", "Mexico", "Germany"]                       |
+| Does your organization have operations or suppliers in areas where workers' rights to exercise freedom of association or collective bargaining may be violated or at significant risk? | Risk Assessment | Yes/No/Unknown | Boolean       | "Yes"                                                        |
+| If yes, what specific risks have been identified?            | Risk Detail     | Multi-select   | Array[String] | ["Legal restrictions on unions", "Cultural barriers", "Management resistance"] |
+
+## Policy and Management Approach
+
+| Question                                                     | Question Type  | Input Type       | Data Type     | Example Answer                                               |
+| ------------------------------------------------------------ | -------------- | ---------------- | ------------- | ------------------------------------------------------------ |
+| Does your organization have a formal policy on freedom of association and collective bargaining? | Policy         | Yes/No           | Boolean       | "Yes"                                                        |
+| Please upload or describe your freedom of association policy | Policy Detail  | File Upload/Text | File/String   | "Policy document uploaded" or "We respect all workers' rights to join unions..." |
+| Who is responsible for implementing and monitoring freedom of association policies? | Responsibility | Text             | String        | "Chief Human Resources Officer and local HR managers"        |
+| How often do you review and update your freedom of association policies? | Frequency      | Dropdown         | String        | "Annually"                                                   |
+| Are your policies communicated to all employees, contractors, and suppliers? | Communication  | Multi-select     | Array[String] | ["Direct employees", "Contractors", "Tier 1 suppliers"]      |
+
+## Operations and Supplier Assessment
+
+| Question                                                     | Question Type | Input Type     | Data Type | Example Answer |
+| ------------------------------------------------------------ | ------------- | -------------- | --------- | -------------- |
+| How many of your direct operations are located in countries with legal restrictions on freedom of association? | Quantitative  | Number         | Integer   | "3"            |
+| What percentage of your total workforce is covered by collective bargaining agreements? | Percentage    | Number (0-100) | Float     | "45.7"         |
+| How many of your suppliers have been assessed for risks related to freedom of association and collective bargaining? | Quantitative  | Number         | Integer   | "127"          |
+| What percentage of your Tier 1 suppliers have been assessed for these risks? | Percentage    | Number (0-100) | Float     | "85.3"         |
+| How many suppliers were identified as having significant risk for violations of freedom of association? | Quantitative  | Number         | Integer   | "8"            |
+
+## Specific Risk Areas and Locations
+
+| Question                                                     | Question Type     | Input Type        | Data Type        | Example Answer                                               |
+| ------------------------------------------------------------ | ----------------- | ----------------- | ---------------- | ------------------------------------------------------------ |
+| Please list the specific countries/regions where you have identified risks to freedom of association | Geographic Detail | Multi-select/Text | Array[String]    | ["Bangladesh", "Vietnam", "certain states in USA"]           |
+| What types of operations in these areas pose the greatest risk? | Operational Risk  | Multi-select      | Array[String]    | ["Manufacturing facilities", "Supplier factories", "Subcontractor operations"] |
+| Are there specific sectors or industries in your supply chain with higher risks? | Sector Risk       | Multi-select      | Array[String]    | ["Textile manufacturing", "Electronics assembly", "Agricultural processing"] |
+| Do any of your operations involve migrant workers or vulnerable populations? | Vulnerable Groups | Yes/No + Detail   | Boolean + String | "Yes - seasonal agricultural workers in Region X"            |
+
+## Due Diligence and Monitoring
+
+| Question                                                     | Question Type       | Input Type      | Data Type        | Example Answer                                               |
+| ------------------------------------------------------------ | ------------------- | --------------- | ---------------- | ------------------------------------------------------------ |
+| How do you monitor compliance with freedom of association rights in your operations? | Monitoring Method   | Multi-select    | Array[String]    | ["Regular audits", "Employee surveys", "Grievance mechanisms", "Third-party assessments"] |
+| How frequently do you conduct assessments of freedom of association risks? | Frequency           | Dropdown        | String           | "Annually for high-risk locations, every 2 years for others" |
+| Do you use third-party organizations to assess freedom of association risks? | Third Party         | Yes/No + Detail | Boolean + String | "Yes - we work with [Organization Name] for independent assessments" |
+| How do you assess suppliers for freedom of association risks during the procurement process? | Supplier Assessment | Multi-select    | Array[String]    | ["Pre-qualification questionnaires", "On-site audits", "Certification requirements"] |
+
+## Incidents and Remediation
+
+| Question                                                     | Question Type          | Input Type | Data Type | Example Answer                                               |
+| ------------------------------------------------------------ | ---------------------- | ---------- | --------- | ------------------------------------------------------------ |
+| In the reporting period, were there any incidents where workers' rights to freedom of association were violated or restricted? | Incident Occurrence    | Yes/No     | Boolean   | "Yes"                                                        |
+| If yes, how many incidents were reported or identified?      | Quantitative           | Number     | Integer   | "2"                                                          |
+| Please describe the nature of these incidents                | Incident Detail        | Text Area  | String    | "Two cases of management interference with union organizing activities at Facility A" |
+| What corrective actions were taken to address these incidents? | Remediation            | Text Area  | String    | "Management training provided, policy reinforcement, compensation to affected workers" |
+| How do you track the effectiveness of remediation measures?  | Effectiveness Tracking | Text Area  | String    | "Follow-up audits, employee feedback surveys, union representative meetings" |
+
+## Stakeholder Engagement
+
+| Question                                                     | Question Type          | Input Type      | Data Type        | Example Answer                                               |
+| ------------------------------------------------------------ | ---------------------- | --------------- | ---------------- | ------------------------------------------------------------ |
+| Do you engage with trade unions, worker representatives, or civil society organizations on freedom of association issues? | Stakeholder Engagement | Yes/No + Detail | Boolean + String | "Yes - regular meetings with International Union Federation representatives" |
+| How do you ensure workers can freely communicate concerns about freedom of association? | Communication Channels | Multi-select    | Array[String]    | ["Anonymous hotline", "Worker committees", "Direct supervisor meetings", "Third-party grievance system"] |
+| Are there any collective bargaining agreements in place at your operations? | Collective Bargaining  | Yes/No + Detail | Boolean + String | "Yes - 12 active agreements covering 3,200 employees"        |
+| How do you ensure suppliers respect workers' rights to freedom of association? | Supplier Requirements  | Multi-select    | Array[String]    | ["Contractual requirements", "Regular audits", "Training programs", "Corrective action plans"] |
+
+## Training and Capacity Building
+
+| Question                                                     | Question Type          | Input Type      | Data Type        | Example Answer                                               |
+| ------------------------------------------------------------ | ---------------------- | --------------- | ---------------- | ------------------------------------------------------------ |
+| Do management and supervisors receive training on freedom of association and collective bargaining rights? | Management Training    | Yes/No + Detail | Boolean + String | "Yes - annual training for all managers and supervisors"     |
+| Are workers informed about their rights regarding freedom of association? | Worker Education       | Yes/No + Detail | Boolean + String | "Yes - included in orientation and annual refresher sessions" |
+| Do you provide training or support to suppliers on freedom of association issues? | Supplier Training      | Yes/No + Detail | Boolean + String | "Yes - quarterly workshops for key suppliers"                |
+| How do you measure the effectiveness of your training programs? | Training Effectiveness | Text Area       | String           | "Pre/post training assessments, incident tracking, employee surveys" |
+
+## Continuous Improvement
+
+| Question                                                     | Question Type    | Input Type      | Data Type        | Example Answer                                               |
+| ------------------------------------------------------------ | ---------------- | --------------- | ---------------- | ------------------------------------------------------------ |
+| What improvements have you made to your freedom of association practices in the reporting period? | Improvements     | Text Area       | String           | "Implemented new grievance system, expanded supplier training program, revised policies" |
+| What are your targets or goals for improving freedom of association practices? | Future Goals     | Text Area       | String           | "100% supplier assessment completion by 2025, zero tolerance incidents target" |
+| How do you benchmark your performance against industry standards or best practices? | Benchmarking     | Text Area       | String           | "Participate in industry working groups, use ILO standards as reference, third-party certifications" |
+| Do you publicly report on your freedom of association practices and performance? | Public Reporting | Yes/No + Detail | Boolean + String | "Yes - included in annual sustainability report and website updates" |
+
+# GRI 408 Child Labor
+
+## Management Disclosure Questions
+
+| Question                                                     | Question Type         | Input Type                | Data Type      | Example Answer                                               |
+| ------------------------------------------------------------ | --------------------- | ------------------------- | -------------- | ------------------------------------------------------------ |
+| Does your organization have a formal policy prohibiting child labor? | Yes/No with follow-up | Radio buttons + Text area | Boolean + Text | Yes - "Our Code of Conduct explicitly prohibits employment of anyone under 18 years of age" |
+| What is the minimum age for employment in your organization? | Direct factual        | Number input              | Integer        | 18                                                           |
+| How does your organization verify the age of employees during recruitment? | Process description   | Text area                 | Text           | "We require government-issued photo ID, birth certificate verification, and maintain copies in personnel files" |
+| Does your child labor policy extend to contractors, suppliers, and business partners? | Yes/No with details   | Radio buttons + Text area | Boolean + Text | Yes - "All suppliers must sign our Supplier Code of Conduct which includes child labor prohibitions" |
+| What training do HR personnel receive on identifying and preventing child labor? | Training description  | Text area                 | Text           | "Annual 4-hour training on labor law compliance, age verification procedures, and reporting protocols" |
+
+## Operational Data Questions
+
+| Question                                                     | Question Type       | Input Type                | Data Type      | Example Answer                                               |
+| ------------------------------------------------------------ | ------------------- | ------------------------- | -------------- | ------------------------------------------------------------ |
+| How many locations/facilities does your organization operate? | Quantitative        | Number input              | Integer        | 15                                                           |
+| In how many countries/jurisdictions does your organization operate? | Quantitative        | Number input              | Integer        | 3                                                            |
+| What is your total workforce count?                          | Quantitative        | Number input              | Integer        | 2,450                                                        |
+| How many employees are under 18 years of age?                | Quantitative        | Number input              | Integer        | 0                                                            |
+| What is the youngest age of any current employee?            | Direct factual      | Number input              | Integer        | 19                                                           |
+| How many apprentices or trainees under 18 do you employ?     | Quantitative        | Number input              | Integer        | 0                                                            |
+| Do you employ workers aged 16-18 in any capacity?            | Yes/No with details | Radio buttons + Text area | Boolean + Text | No - "Our minimum employment age is 18 across all positions" |
+
+## Risk Assessment Questions
+
+| Question                                                     | Question Type         | Input Type                | Data Type      | Example Answer                                               |
+| ------------------------------------------------------------ | --------------------- | ------------------------- | -------------- | ------------------------------------------------------------ |
+| Have you conducted a child labor risk assessment for your operations? | Yes/No with frequency | Radio buttons + Dropdown  | Boolean + Text | Yes - "Conducted annually as part of our ESG risk assessment" |
+| Which of your operational locations are in countries with higher child labor risks? | Risk identification   | Multi-select + Text area  | Array + Text   | "None - all operations in low-risk jurisdictions (US, Canada, Germany)" |
+| Do any of your operations involve hazardous work that would be prohibited for workers under 18? | Yes/No with details   | Radio buttons + Text area | Boolean + Text | Yes - "Manufacturing operations involve machinery and chemicals prohibited for minors" |
+| What percentage of your supply chain has been assessed for child labor risks? | Percentage            | Slider/Number input       | Percentage     | 85%                                                          |
+| How frequently do you audit suppliers for child labor compliance? | Frequency             | Dropdown                  | Text           | "Tier 1 suppliers annually, Tier 2 suppliers every two years" |
+
+## Incident and Remediation Questions
+
+| Question                                                     | Question Type            | Input Type                | Data Type      | Example Answer                                               |
+| ------------------------------------------------------------ | ------------------------ | ------------------------- | -------------- | ------------------------------------------------------------ |
+| Have you identified any instances of child labor in your operations in the reporting period? | Yes/No with details      | Radio buttons + Text area | Boolean + Text | No - "No instances identified through our monitoring systems" |
+| Have you identified any instances of child labor in your supply chain in the reporting period? | Yes/No with details      | Radio buttons + Text area | Boolean + Text | No - "Supplier audits revealed no child labor violations"    |
+| If child labor was identified, how many cases were reported? | Conditional quantitative | Number input              | Integer        | 0                                                            |
+| What remediation actions were taken for any identified cases? | Conditional process      | Text area                 | Text           | "N/A - No cases identified"                                  |
+| Do you have a grievance mechanism for reporting child labor concerns? | Yes/No with details      | Radio buttons + Text area | Boolean + Text | Yes - "Anonymous hotline and online reporting system available 24/7" |
+| How many child labor-related grievances were received in the reporting period? | Quantitative             | Number input              | Integer        | 0                                                            |
+
+## Supply Chain Management Questions
+
+| Question                                                     | Question Type       | Input Type                | Data Type      | Example Answer                                               |
+| ------------------------------------------------------------ | ------------------- | ------------------------- | -------------- | ------------------------------------------------------------ |
+| What percentage of your suppliers have signed agreements prohibiting child labor? | Percentage          | Slider/Number input       | Percentage     | 100%                                                         |
+| How do you monitor supplier compliance with child labor policies? | Process description | Text area                 | Text           | "Annual on-site audits, quarterly self-assessments, and third-party verification for high-risk suppliers" |
+| What actions do you take when child labor violations are found in your supply chain? | Process description | Text area                 | Text           | "Immediate remediation plan required, support for affected children, supplier improvement timeline, termination if no progress" |
+| Do you provide capacity building support to suppliers on child labor prevention? | Yes/No with details | Radio buttons + Text area | Boolean + Text | Yes - "Annual training workshops and resource sharing on labor compliance best practices" |
+| What percentage of your procurement spend is with suppliers verified as child labor-free? | Percentage          | Slider/Number input       | Percentage     | 98%                                                          |
+
+## Reporting and Transparency Questions
+
+| Question                                                     | Question Type          | Input Type                   | Data Type       | Example Answer                                               |
+| ------------------------------------------------------------ | ---------------------- | ---------------------------- | --------------- | ------------------------------------------------------------ |
+| Do you publicly report on your child labor prevention efforts? | Yes/No with details    | Radio buttons + Text area    | Boolean + Text  | Yes - "Annual sustainability report includes dedicated child labor section" |
+| Are you a member of any initiatives or organizations focused on eliminating child labor? | Yes/No with list       | Radio buttons + Multi-select | Boolean + Array | Yes - "UN Global Compact, Fair Labor Association"            |
+| Do you collaborate with NGOs or governments on child labor prevention? | Yes/No with details    | Radio buttons + Text area    | Boolean + Text  | Yes - "Partner with local NGOs for community education programs in supplier regions" |
+| How do you engage with stakeholders on child labor issues?   | Engagement description | Text area                    | Text            | "Regular stakeholder surveys, community meetings in operational areas, investor briefings on labor practices" |
+| What targets have you set for child labor prevention and remediation? | Target description     | Text area                    | Text            | "Maintain zero tolerance policy, achieve 100% supplier certification by 2025, expand due diligence to Tier 3 suppliers" |
+
+## Geographic and Sector-Specific Questions
+
+| Question                                                     | Question Type       | Input Type                | Data Type      | Example Answer                                               |
+| ------------------------------------------------------------ | ------------------- | ------------------------- | -------------- | ------------------------------------------------------------ |
+| In which industries/sectors does your organization operate?  | Industry selection  | Multi-select              | Array          | ["Manufacturing", "Technology", "Retail"]                    |
+| Do any of your operations occur in countries listed on the US Department of Labor's List of Goods Produced by Child Labor? | Yes/No with details | Radio buttons + Text area | Boolean + Text | No - "All operations in countries not listed on TVPRA list"  |
+| What is the legal minimum age for employment in each country where you operate? | Legal compliance    | Table input               | Object         | "USA: 16 (18 for hazardous work), Germany: 16, Canada: 16"   |
+| Are there any seasonal or temporary work patterns that could increase child labor risks? | Risk identification | Yes/No + Text area        | Boolean + Text | No - "Maintain consistent workforce year-round with no seasonal hiring of minors" |
+| Do you operate in or source from regions with known child labor prevalence? | Geographic risk     | Yes/No + Text area        | Boolean + Text | No - "All operations and Tier 1 suppliers in low-risk jurisdictions" |
+
+# GRI 409 Forced or Compulsory Labor
+
+## Overview
+
+This comprehensive questionnaire covers all disclosure requirements for GRI 409: Forced or Compulsory Labor, designed for AI-guided data collection to support sustainability reporting.
+
+| Question                                                     | Question Type   | Input Type   | Data Type | Example Answer                                               |
+| ------------------------------------------------------------ | --------------- | ------------ | --------- | ------------------------------------------------------------ |
+| **Basic Company Information**                                |                 |              |           |                                                              |
+| What is your organization's name?                            | Identification  | Text         | String    | "Global Manufacturing Corp"                                  |
+| What reporting period does this data cover?                  | Contextual      | Date Range   | Date      | "January 1, 2024 - December 31, 2024"                        |
+| Which geographical regions do your operations cover?         | Contextual      | Multi-select | Array     | ["North America", "Southeast Asia", "Europe"]                |
+| **GRI 409-1: Operations and suppliers at significant risk for incidents of forced or compulsory labor** |                 |              |           |                                                              |
+| Have you conducted risk assessments for forced or compulsory labor in your operations? | Yes/No          | Radio Button | Boolean   | "Yes"                                                        |
+| How many of your direct operations have been identified as having significant risk for forced or compulsory labor incidents? | Quantitative    | Number       | Integer   | "3"                                                          |
+| What percentage of your total operations does this represent? | Quantitative    | Number       | Decimal   | "12.5"                                                       |
+| Which specific operations have been identified as high-risk? Please list by location/facility name. | Descriptive     | Long Text    | String    | "Factory A - Vietnam, Warehouse B - Malaysia, Processing Plant C - Thailand" |
+| What are the primary risk factors that led to these operations being classified as high-risk? | Multiple Choice | Multi-select | Array     | ["Migrant worker populations", "Subcontracting practices", "Remote locations"] |
+| How many suppliers in your supply chain have been assessed for forced labor risks? | Quantitative    | Number       | Integer   | "450"                                                        |
+| How many suppliers have been identified as having significant risk for forced or compulsory labor? | Quantitative    | Number       | Integer   | "23"                                                         |
+| What percentage of your total suppliers does this high-risk group represent? | Quantitative    | Number       | Decimal   | "5.1"                                                        |
+| What percentage of your total procurement spend do these high-risk suppliers represent? | Quantitative    | Number       | Decimal   | "18.2"                                                       |
+| Which supplier categories or industries pose the highest risk? | Multiple Choice | Multi-select | Array     | ["Agriculture", "Textiles", "Construction", "Electronics manufacturing"] |
+| What specific risk factors have you identified in your supply chain? | Multiple Choice | Multi-select | Array     | ["Use of labor brokers", "Debt bondage practices", "Passport retention", "Excessive overtime"] |
+| Do you have suppliers in countries with high forced labor prevalence according to international indices? | Yes/No          | Radio Button | Boolean   | "Yes"                                                        |
+| If yes, which countries and how many suppliers in each?      | Descriptive     | Long Text    | String    | "Bangladesh: 5 suppliers, Myanmar: 2 suppliers, Uzbekistan: 1 supplier" |
+| **Risk Assessment Methodology**                              |                 |              |           |                                                              |
+| What methodology do you use to assess forced labor risks?    | Multiple Choice | Multi-select | Array     | ["On-site audits", "Third-party assessments", "Worker interviews", "Document reviews"] |
+| How frequently do you conduct these risk assessments?        | Single Choice   | Dropdown     | String    | "Annually"                                                   |
+| Do you use any specific tools or frameworks for assessment?  | Descriptive     | Text         | String    | "ILO indicators, Verité toolkit, UNGP reporting framework"   |
+| What data sources do you use to identify high-risk regions or sectors? | Multiple Choice | Multi-select | Array     | ["Global Slavery Index", "US Department of Labor List", "ILO reports", "NGO research"] |
+| **Due Diligence Measures**                                   |                 |              |           |                                                              |
+| What measures have you taken to address forced labor risks in your operations? | Multiple Choice | Multi-select | Array     | ["Worker training programs", "Grievance mechanisms", "Policy implementation", "Management system improvements"] |
+| What measures have you taken to address supplier risks?      | Multiple Choice | Multi-select | Array     | ["Supplier audits", "Contractual requirements", "Capacity building", "Alternative sourcing"] |
+| Do you have a specific policy prohibiting forced or compulsory labor? | Yes/No          | Radio Button | Boolean   | "Yes"                                                        |
+| Is this policy communicated to all operations and suppliers? | Yes/No          | Radio Button | Boolean   | "Yes"                                                        |
+| Do you provide training on forced labor identification and prevention? | Yes/No          | Radio Button | Boolean   | "Yes"                                                        |
+| How many employees received forced labor awareness training this reporting period? | Quantitative    | Number       | Integer   | "1,250"                                                      |
+| How many suppliers received capacity building or training on forced labor prevention? | Quantitative    | Number       | Integer   | "89"                                                         |
+| **Worker Protection Measures**                               |                 |              |           |                                                              |
+| Do you have mechanisms for workers to report forced labor concerns safely? | Yes/No          | Radio Button | Boolean   | "Yes"                                                        |
+| How many grievances related to forced labor were received this reporting period? | Quantitative    | Number       | Integer   | "7"                                                          |
+| How many of these grievances were resolved?                  | Quantitative    | Number       | Integer   | "6"                                                          |
+| Do you conduct worker interviews as part of your monitoring process? | Yes/No          | Radio Button | Boolean   | "Yes"                                                        |
+| Are these interviews conducted in workers' native languages? | Yes/No          | Radio Button | Boolean   | "Yes"                                                        |
+| Do you verify that workers are not required to surrender identity documents? | Yes/No          | Radio Button | Boolean   | "Yes"                                                        |
+| Do you verify that workers are not charged recruitment fees? | Yes/No          | Radio Button | Boolean   | "Yes"                                                        |
+| **Remediation Actions**                                      |                 |              |           |                                                              |
+| Have you identified any actual cases of forced or compulsory labor this reporting period? | Yes/No          | Radio Button | Boolean   | "No"                                                         |
+| If yes, how many cases were identified?                      | Quantitative    | Number       | Integer   | "0"                                                          |
+| What remediation actions were taken for confirmed cases?     | Descriptive     | Long Text    | String    | "N/A - No cases identified"                                  |
+| Have you terminated relationships with any suppliers due to forced labor concerns? | Yes/No          | Radio Button | Boolean   | "Yes"                                                        |
+| How many supplier relationships were terminated for this reason? | Quantitative    | Number       | Integer   | "2"                                                          |
+| What support was provided to affected workers in remediation cases? | Descriptive     | Long Text    | String    | "N/A - No cases requiring worker remediation"                |
+| **Collaboration and Partnerships**                           |                 |              |           |                                                              |
+| Do you collaborate with external organizations on forced labor prevention? | Yes/No          | Radio Button | Boolean   | "Yes"                                                        |
+| Which organizations do you partner with?                     | Descriptive     | Text         | String    | "ILO, Verité, Fair Labor Association, Local NGOs"            |
+| Are you a member of any industry initiatives addressing forced labor? | Yes/No          | Radio Button | Boolean   | "Yes"                                                        |
+| Which initiatives are you involved in?                       | Descriptive     | Text         | String    | "Responsible Business Alliance, Better Cotton Initiative"    |
+| **Monitoring and Verification**                              |                 |              |           |                                                              |
+| Do you use third-party verification for your forced labor assessments? | Yes/No          | Radio Button | Boolean   | "Yes"                                                        |
+| What percentage of high-risk operations underwent independent verification this year? | Quantitative    | Number       | Decimal   | "85.0"                                                       |
+| What percentage of high-risk suppliers were audited by third parties this year? | Quantitative    | Number       | Decimal   | "75.5"                                                       |
+| How do you verify the effectiveness of your forced labor prevention measures? | Multiple Choice | Multi-select | Array     | ["Regular audits", "Worker feedback", "KPI tracking", "External assessments"] |
+| **Technology and Innovation**                                |                 |              |           |                                                              |
+| Do you use technology solutions to monitor forced labor risks? | Yes/No          | Radio Button | Boolean   | "Yes"                                                        |
+| What technologies do you employ?                             | Multiple Choice | Multi-select | Array     | ["Blockchain for supply chain tracking", "AI for risk assessment", "Mobile apps for worker feedback", "Satellite monitoring"] |
+| **Challenges and Limitations**                               |                 |              |           |                                                              |
+| What are the main challenges you face in addressing forced labor risks? | Multiple Choice | Multi-select | Array     | ["Limited supplier transparency", "Complex supply chains", "Resource constraints", "Cultural barriers"] |
+| Are there any operations or suppliers you cannot adequately assess? | Yes/No          | Radio Button | Boolean   | "Yes"                                                        |
+| What percentage of your supply chain remains unassessed for forced labor risks? | Quantitative    | Number       | Decimal   | "15.3"                                                       |
+| What are the main barriers to complete supply chain visibility? | Descriptive     | Long Text    | String    | "Multi-tier suppliers, informal subcontracting, limited resources for assessment in remote locations" |
+| **Future Plans**                                             |                 |              |           |                                                              |
+| What are your plans to improve forced labor risk management in the next reporting period? | Descriptive     | Long Text    | String    | "Expand supplier assessment program, implement blockchain traceability, increase worker training frequency" |
+| Do you have specific targets for reducing forced labor risks? | Yes/No          | Radio Button | Boolean   | "Yes"                                                        |
+| What are these targets?                                      | Descriptive     | Text         | String    | "100% of high-risk suppliers audited annually, zero tolerance policy implementation across all tiers" |
+
+# GRI 410 Security Practices
+
+| Question                                                     | Question Type | Input Type            | Data Type | Example Answer                                               |
+| ------------------------------------------------------------ | ------------- | --------------------- | --------- | ------------------------------------------------------------ |
+| **General Security Personnel Information**                   |               |                       |           |                                                              |
+| How many security personnel does your organization employ directly? | Quantitative  | Number Input          | Integer   | 45                                                           |
+| How many security personnel are contracted from external security companies? | Quantitative  | Number Input          | Integer   | 120                                                          |
+| What percentage of your total security personnel are directly employed vs. contracted? | Quantitative  | Percentage Input      | Float     | 27% direct, 73% contracted                                   |
+| In which countries/regions do you deploy security personnel? | Categorical   | Multi-select Dropdown | Array     | ["United States", "Mexico", "Colombia", "Nigeria"]           |
+| What is the total number of security incidents reported in the reporting period? | Quantitative  | Number Input          | Integer   | 23                                                           |
+| **Training and Human Rights**                                |               |                       |           |                                                              |
+| Do you have formal human rights training programs for security personnel? | Binary        | Yes/No Radio          | Boolean   | Yes                                                          |
+| What percentage of directly employed security personnel have received human rights training? | Quantitative  | Percentage Input      | Float     | 85%                                                          |
+| What percentage of contracted security personnel have received human rights training? | Quantitative  | Percentage Input      | Float     | 72%                                                          |
+| How many hours of human rights training do security personnel receive annually? | Quantitative  | Number Input          | Integer   | 16                                                           |
+| What specific human rights topics are covered in your training programs? | Categorical   | Multi-select Checkbox | Array     | ["Use of force", "Detention procedures", "Cultural sensitivity", "Non-discrimination"] |
+| Do you require security contractors to provide human rights training to their personnel? | Binary        | Yes/No Radio          | Boolean   | Yes                                                          |
+| How do you verify that contracted security personnel have received adequate human rights training? | Open-ended    | Text Area             | String    | "We require training certificates and conduct random audits of contractor training records" |
+| **Policies and Procedures**                                  |               |                       |           |                                                              |
+| Do you have written policies governing the use of force by security personnel? | Binary        | Yes/No Radio          | Boolean   | Yes                                                          |
+| Do your security policies explicitly reference international human rights standards? | Binary        | Yes/No Radio          | Boolean   | Yes                                                          |
+| Which international human rights frameworks do your policies reference? | Categorical   | Multi-select Checkbox | Array     | ["UN Universal Declaration of Human Rights", "UN Guiding Principles on Business and Human Rights", "Voluntary Principles on Security and Human Rights"] |
+| Do you have procedures for investigating security-related human rights incidents? | Binary        | Yes/No Radio          | Boolean   | Yes                                                          |
+| How often are your security policies reviewed and updated?   | Categorical   | Dropdown              | String    | "Annually"                                                   |
+| Do you conduct human rights due diligence when selecting security contractors? | Binary        | Yes/No Radio          | Boolean   | Yes                                                          |
+| **Incident Reporting and Management**                        |               |                       |           |                                                              |
+| How many human rights-related security incidents were reported in the reporting period? | Quantitative  | Number Input          | Integer   | 3                                                            |
+| How many of these incidents involved directly employed security personnel? | Quantitative  | Number Input          | Integer   | 1                                                            |
+| How many incidents involved contracted security personnel?   | Quantitative  | Number Input          | Integer   | 2                                                            |
+| What types of human rights violations occurred?              | Categorical   | Multi-select Checkbox | Array     | ["Excessive use of force", "Unlawful detention", "Discrimination"] |
+| How many incidents resulted in formal complaints or legal proceedings? | Quantitative  | Number Input          | Integer   | 1                                                            |
+| What corrective actions were taken following security incidents? | Open-ended    | Text Area             | String    | "Additional training provided, policy clarification issued, contractor performance review conducted" |
+| Do you have a grievance mechanism for security-related human rights concerns? | Binary        | Yes/No Radio          | Boolean   | Yes                                                          |
+| How many grievances were received through this mechanism in the reporting period? | Quantitative  | Number Input          | Integer   | 7                                                            |
+| **Monitoring and Oversight**                                 |               |                       |           |                                                              |
+| Do you conduct regular audits of security practices for human rights compliance? | Binary        | Yes/No Radio          | Boolean   | Yes                                                          |
+| How frequently are security audits conducted?                | Categorical   | Dropdown              | String    | "Quarterly"                                                  |
+| Do you monitor security contractor performance regarding human rights? | Binary        | Yes/No Radio          | Boolean   | Yes                                                          |
+| What methods do you use to monitor security practices?       | Categorical   | Multi-select Checkbox | Array     | ["Regular audits", "Incident reporting systems", "Community feedback", "CCTV review"] |
+| Do you engage with local communities regarding security practices? | Binary        | Yes/No Radio          | Boolean   | Yes                                                          |
+| How do you measure the effectiveness of your human rights training programs? | Open-ended    | Text Area             | String    | "Pre/post training assessments, incident rate tracking, feedback surveys, behavioral observations" |
+| **Geographic and Operational Context**                       |               |                       |           |                                                              |
+| In which high-risk countries or regions do you operate security services? | Categorical   | Multi-select Dropdown | Array     | ["Colombia", "Nigeria", "Myanmar", "Democratic Republic of Congo"] |
+| Do you have enhanced human rights protocols for high-risk operating environments? | Binary        | Yes/No Radio          | Boolean   | Yes                                                          |
+| What additional measures do you implement in conflict-affected areas? | Open-ended    | Text Area             | String    | "Enhanced community engagement, stricter rules of engagement, increased monitoring frequency" |
+| Do you coordinate with local law enforcement or military forces? | Binary        | Yes/No Radio          | Boolean   | Yes                                                          |
+| If yes, what safeguards are in place to ensure human rights compliance in these relationships? | Open-ended    | Text Area             | String    | "Joint training programs, clear protocols for interaction, regular review meetings, incident reporting procedures" |
+| **Contractor Management**                                    |               |                       |           |                                                              |
+| What percentage of your security budget goes to contracted vs. directly employed security? | Quantitative  | Percentage Input      | Float     | 65% contracted, 35% direct                                   |
+| Do you include human rights clauses in security contractor agreements? | Binary        | Yes/No Radio          | Boolean   | Yes                                                          |
+| How do you assess contractor compliance with human rights requirements? | Open-ended    | Text Area             | String    | "Regular performance reviews, compliance audits, incident tracking, community feedback monitoring" |
+| What actions do you take when contractors fail to meet human rights standards? | Open-ended    | Text Area             | String    | "Performance improvement plans, additional training requirements, contract termination for serious violations" |
+| Do you provide human rights training directly to contractor personnel? | Binary        | Yes/No Radio          | Boolean   | No                                                           |
+| **Reporting and Transparency**                               |               |                       |           |                                                              |
+| Do you publicly report on security practices and human rights performance? | Binary        | Yes/No Radio          | Boolean   | Yes                                                          |
+| Which stakeholders do you engage with regarding security and human rights issues? | Categorical   | Multi-select Checkbox | Array     | ["Local communities", "NGOs", "Government agencies", "Industry associations"] |
+| Have you received any external recognition or certification for security practices? | Binary        | Yes/No Radio          | Boolean   | Yes                                                          |
+| If yes, what certifications or recognitions have you received? | Open-ended    | Text Area             | String    | "Voluntary Principles Initiative participant, ISO 18788 certification for private security operations" |
+| Do you participate in industry initiatives on security and human rights? | Binary        | Yes/No Radio          | Boolean   | Yes                                                          |
+| **Performance Metrics**                                      |               |                       |           |                                                              |
+| What is your target for human rights training completion rates? | Quantitative  | Percentage Input      | Float     | 95%                                                          |
+| How has your security incident rate changed over the past three years? | Quantitative  | Percentage Input      | Float     | -25%                                                         |
+| What percentage of security incidents were resolved satisfactorily for affected parties? | Quantitative  | Percentage Input      | Float     | 78%                                                          |
+| How many security personnel were disciplined for human rights violations in the reporting period? | Quantitative  | Number Input          | Integer   | 4                                                            |
+| What is the average response time for investigating security-related human rights complaints? | Quantitative  | Number Input          | Integer   | 14 days                                                      |
