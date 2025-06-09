@@ -35,6 +35,138 @@
 | Do you use any backup generators at warehouses or offices? What is their fuel consumption? | 1     | Stationary Combustion | Quantitative | Liters/hours of operation by fuel type           | 2 diesel generators, 500 liters/year total               |
 | What is the natural gas consumption for heating at owned facilities? | 1     | Stationary Combustion | Quantitative | Cubic meters or therms per year                  | 12,000 m³/year for warehouse heating                     |
 
+
+
+---
+
+
+
+**Transportation Emissions Calculation (EPA Factors)**
+
+Commercial delivery trucks, especially those used for transporting heavy equipment like ATMs, are almost always diesel-powered due to better fuel efficiency and torque for heavy loads.
+
+**Your diesel consumption:** 45,000 liters/year
+
+**Results:**
+
+- **Total annual emissions: 121.78 metric tons CO2e**
+- **Emissions per liter: 2.706 kg CO2e/liter**
+
+**Detailed breakdown**
+
+1. **CO2 emissions:** 121,373.91 kg (99.7% of total) 
+
+   Every liter of diesel produces ~2.68 kg of CO2
+
+2. **CH4 emissions:** 121.85 kg CO2e (0.1% of total) 
+
+   **Actual emission** Only 4.87 kg of CH4, but equals 122 kg CO2e (**25x more potent** than CO2 at trapping heat)
+
+3. **N2O emissions:** 283.40 kg CO2e (0.2% of total)
+
+   **Actual emission** Only 0.95 kg of N2O, but equals 283 kg CO2e (**298x more potent** than CO2)
+
+**Practical insights**
+
+- If a typical ATM delivery uses 50 liters of diesel (round trip), each delivery generates approximately **135.31 kg CO2e**
+- This means delivering one ATM has roughly the same carbon footprint as burning 57 liters of gasoline in a passenger car
+
+**EPA Emission Factors Used**
+
+- **CO2**: 10.21 kg CO2/gallon of diesel = 2.697 kg CO2/liter (99.7%)
+- **CH4**: 0.41 g CH4/gallon (heavy-duty diesel trucks) = 0.0027 kg CO2e/liter (0.1%)
+- **N2O**: 0.08 g N2O/gallon (heavy-duty diesel trucks) = 0.0063 kg CO2e/liter (0.2%)
+- **GWP factors**: CH4 = 25, N2O = 298
+
+
+
+---
+
+**Delivery/Transportation Vehicles**
+
+**Purpose**: Vehicles used for initial ATM delivery from warehouse to bank locations
+
+**Characteristics**:
+
+- Typically larger vehicles (heavy trucks, flatbeds)
+- Make planned routes for new ATM installations
+- Carry whole ATM units (e.g 380+ kg each)
+- Require special handling equipment
+- Often deliver multiple units per trip
+
+**Example**: A delivery truck transports 5 new ATMs from the central warehouse to various bank branches across a 300 km route
+
+Note : Delivery trucks typically consume more fuel per km but may be used less frequently, while service vehicles make many more trips with lower fuel consumption per trip. 
+
+- **Vehicle Size and Weight (Heavier vehicles require more energy to accelerate and maintain speed)**, 
+  - **Delivery trucks**: Often 7.5-26 tonnes gross vehicle weight
+  - **Service vans**: Typically 2-3.5 tonnes
+- **Engine Size and Type (Larger engines inherently consume more fuel)**, 
+  - **Delivery trucks**: Large diesel engines (6-12 liters)
+  - **Service vans**: Smaller engines (2-3 liters)
+- **Aerodynamics (Trucks have larger frontal areas and poor aerodynamic profiles)**
+  - Creates more air resistance, especially at highway speeds
+  - Box trucks can consume 20-35 L/100km vs. 7-10 L/100km for vans
+
+
+
+---
+
+
+
+**Service/Maintenance Vehicles**
+
+**Purpose**: Vehicles used for ATM repairs, maintenance calls, and technical support
+
+**Characteristics**:
+
+- Typically smaller vehicles (vans, light trucks)
+- Make frequent, shorter trips to individual ATM locations
+- Carry tools, spare parts, and technicians
+- Often have irregular routes based on service requests
+- May include specialized equipment (diagnostic tools, lifts)
+
+**Example**: A technician drives a service van 80 km to fix a card reader jam at a single ATM location
+
+
+
+---
+
+**HVAC Emissions Calculation (EPA Factors)**
+
+R-410A is a hydrofluorocarbon (HFC) refrigerant commonly used in residential and commercial air conditioning systems. The "45 kg" in the example refers to the total refrigerant capacity in a large commercial system.
+
+Samsung WindFree Lite 1.5 PK Specifications
+
+For a 1.5 PK (approximately 1.5 HP or 12,000-13,000 BTU) residential air conditioner:
+
+- **Typical R-410A charge**: 1.0-1.5 kg (your specific model likely contains around 1.2 kg)
+- **Annual leakage rate**: 2-5% for residential units (EPA default is 2% for well-maintained systems)
+
+**PK/HP**: Used in regions with European influence (simpler whole numbers). 1 HP = 746 watts of electrical power. 1 HP ≈ 9,000-10,000 BTU/hr of cooling capacity.
+
+**BTU**: Used in USA, UK, and countries following American standards (more precise for HVAC calculations)
+
+**kW**: Scientific/international standard (1 kW = 3,412 BTU/hr)
+
+**Emissions Calculation**
+
+Using EPA emission factors:
+
+**R-410A Global Warming Potential (GWP)**: 2,088 kg CO2e per kg
+
+**Annual Leakage Emissions:**
+
+Refrigerant charge × Leakage rate × GWP = Annual emissions
+
+1.2 kg × 0.02 × 2,088 = 50.1 kg CO2e per year
+
+
+
+---
+
+
+
 ## Scope 2 - Indirect Emissions from Purchased Energy
 
 | Question                                                     | Scope | Category                     | Input Type               | Data Type                | Example Answer                                              |
@@ -171,3 +303,19 @@
 | How do you handle data gaps or estimates?                   | All   | Data Quality | Qualitative | Methodology description       | Industry averages for <5% of Scope 3 where supplier data unavailable |
 | What is your base year for emissions tracking?              | All   | Methodology  | Qualitative | Year and recalculation policy | 2020 base year, recalculate if >5% change from acquisitions  |
 
+
+
+
+
+
+
+# Notes
+
+Buat Target Jangka Pendek 10% dengan timeline dua tahun, tambahkan catatan tambahan
+"Belum Memenuhi Standar Metodologi, Naikkan target reduksi agar sesuai standar."
+
+
+
+Fitur Delete Target Reduction.
+
+Fittur Delete Company Boundary
