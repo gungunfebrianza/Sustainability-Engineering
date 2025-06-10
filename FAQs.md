@@ -1,5 +1,430 @@
 # FAQs
 
+# Apa itu Global Warming Potentials (GWP)
+
+GWP adalah ukuran seberapa banyak panas yang terperangkap oleh gas rumah kaca di atmosfer, relatif terhadap karbon dioksida (CO2), selama periode waktu tertentu.
+
+
+
+# Apa itu Leakage Emission?
+
+Leakage emission adalah kebocoran karbon, merujuk pada peningkatan emisi gas rumah kaca (GRK) yang tidak diinginkan di luar suatu proyek atau area kebijakan sebagai akibat dari upaya pengurangan emisi di area tersebut.
+
+
+
+# Apa itu HVAC?
+
+Sistem HVAC (**Heating, Ventilation, and Air Conditioning**) adalah sistem yang digunakan untuk pemanasan (Heating), ventilasi (ventilation), dan penyejuk udara (air conditioning) dalam bangunan untuk menjaga kenyamanan lingkungan dalam ruangan.
+
+
+
+# Apa itu Hydrofluorocarbons (HFCs)?
+
+Hidrofluorokarbon (HFC) adalah senyawa organik sintetis buatan manusia yang mengandung hidrogen dan fluorin. Senyawa ini terutama digunakan sebagai zat pendingin dan pendingin udara, dan dikenal karena potensi pemanasan global (GWP)-nya yang tinggi.
+
+
+
+# Apa itu R-410A?
+
+Sistem penomoran “R” untuk refrigeran mengikuti konvensi penamaan sistematis yang ditetapkan oleh ASHRAE (American Society of Heating, Refrigerating and Air-Conditioning Engineers).
+
+## Mengapa "R-410A"?
+
+### Awalan Huruf "R"
+
+- **R** adalah singkatan dari "Refrigerant"
+- It's the standard prefix for all refrigerants in the industry
+
+### Sistem Penomoran (410)
+
+Penomoran mengikuti Standar ASHRAE 34, yang menggunakan rumus khusus berdasarkan komposisi kimia:
+
+**Untuk R-410A:**
+
+- Ini adalah campuran zeotropic (mixture) dari dua HFCs:
+  - 50% R-32 (Difluoromethane - CH₂F₂)
+  - 50% R-125 (Pentafluoroethane - CHF₂CF₃)
+
+### Akhiran Huruf ("A")
+
+- Huruf "A" menunjukkan bahwa ini adalah formulasi pertama yang disetujui untuk campuran dua HFCs
+- Jika proporsi campuran diubah secara signifikan, campuran tersebut dapat berubah menjadi R-410B, R-410C, dst.
+
+## Sistem penomoran Refrigeran
+
+Berbagai jenis refrigeran memiliki rentang penomoran yang berbeda:
+
+| Number Range | Type                 | Examples                     |
+| ------------ | -------------------- | ---------------------------- |
+| 10-99        | Methane/Ethane based | R-22, R-32                   |
+| 100-199      | Ethene based         | R-134a                       |
+| 200-299      | Propane based        | R-290 (propane)              |
+| 400-499      | Zeotropic blends     | R-410A, R-407C               |
+| 500-599      | Azeotropic blends    | R-502, R-507                 |
+| 600-699      | Organic compounds    | R-600a (isobutane)           |
+| 700-799      | Inorganic compounds  | R-717 (ammonia), R-744 (CO₂) |
+
+## Mengapa pemberian nama ini penting?
+
+Penamaan sistematis membantu teknisi dan insinyur:
+
+1. **Identify compatibility** - Peralatan yang dirancang untuk R-410A tidak akan berfungsi dengan R-22
+2. **Understand properties** - Seri 400 memberi tahu Anda bahwa itu adalah campuran dengan perubahan suhu
+3. **Ensure safety** - Refrigeran yang berbeda memiliki karakteristik tekanan dan mudah terbakar yang berbeda
+4. **Track environmental impact** - Setiap refrigeran memiliki nilai GWP tertentu
+
+## Konteks Historis
+
+- R-410A dikembangkan sebagai pengganti R-22 (HCFC-22)
+- R-22 dihentikan penggunaannya karena potensi penipisan ozon
+- R-410A memiliki potensi penipisan ozon nol tetapi GWP tinggi (2.088)
+- Alternatif baru seperti R-32 kini diadopsi dengan GWP lebih rendah (675)
+
+Sistem penamaan memastikan standarisasi global, sehingga memudahkan industri HVAC untuk berkomunikasi tentang refrigeran terlepas dari produsen atau negaranya!
+
+
+
+# Apa itu PK & HP pada AC?
+
+PK (Paardenkracht) adalah Istilah Belanda/Indonesia yang berarti "tenaga kuda (horse power)". Umumnya digunakan di Indonesia, Belanda, dan beberapa negara Eropa. Dengan catatan sebagai berikut :
+
+- 1 PK = 1 HP (keduanya setara)
+- AC 1,5 PK = 1,5 HP
+
+HP (Horse Power) adalah Unit daya mekanis yang awalnya didasarkan pada tenaga seekor kuda. Dalam konteks AC artinya mengukur daya motor kompresor
+
+- 1 HP = 746 watt daya listrik
+- 1 HP ≈ 9.000-10.000 BTU/jam kapasitas pendinginan
+
+
+
+
+
+# Apa itu British Thermal Unit (BTU)?
+
+BTU adalah singkatan dari **British Thermal Unit** sebuah satuan pengukuran energi.
+
+1 BTU = Jumlah energi yang dibutuhkan untuk memanaskan 1 pon air hingga 1°F (kenaikan sekitar 0,56°C)
+
+**Contoh:** 
+
+Jika Anda memiliki satu pon air (sekitar 454 gram atau 0,454 liter) pada suhu 59°F dan menambahkan 1 BTU energi, suhunya akan naik hingga 60°F.
+
+## Contoh Pendinginan
+
+Saat kita mengatakan AC memiliki kapasitas 12.000 BTU/jam, artinya:
+
+- AC dapat menghilangkan 12.000 BTU panas dari ruangan Anda setiap jam
+- Setara dengan menghilangkan panas yang dibutuhkan untuk menaikkan 12.000 pon air (5448 liter) hingga 1°F
+- Atau menghilangkan panas yang akan menaikkan 100 pon air (45,5 liter) hingga 120°F
+
+Contoh lainnya Pendingin **(Air Conditioners - BTU/hr)** mengukur daya pendingin
+
+- 5,000 BTU/hr = AC kamar tidur kecil
+- 12,000 BTU/hr = AC kamar besar
+- 24,000 BTU/hr = AC seluruh apartment
+
+## Contoh Pemanasan
+
+Jika Anda memiliki panci berisi 1 pon air pada suhu 60°F dan ingin memanaskannya hingga 61°F, Anda memerlukan energi sebesar 1 BTU. Untuk merebus air sebanyak itu dari suhu 60°F hingga 212°F (mendidih), Anda memerlukan:
+
+- 212°F - 60°F = kenaikan 152°F
+- Energi yang dibutuhkan adalah 152 BTU
+
+Contoh lainnya Pemanas **(Heaters - BTU/hr)** mengukur keluaran panas
+
+- 80,000-120,000 BTU/hr = Tungku Gas
+- 5,000-30,000 BTU/hr = Pemanas Ruangan
+
+## **Konversi Cepat**
+
+- 1 BTU = 1.055 joule
+- 1 BTU = 0,293 watt-hour
+- 3.412 BTU = 1 kilowatt-hour (kWh)
+
+## Mengapa "British"? 
+
+Istilah ini berasal dari Inggris selama revolusi industri ketika para insinyur menghitung energi batubara untuk memanaskan air dalam boiler, mengukur efisiensi mesin uap dan kandungan energi batu bara. Meskipun namanya demikian, alat ini banyak digunakan di AS dan banyak negara lain saat ini.
+
+
+
+
+
+---
+
+Excellent question! Let me explain the molecular journey from coal to heat to boiling water:
+
+## The Molecular Story of Coal → Heat → Boiling Water
+
+### 1. **What's Inside Coal (Molecular Level)**
+
+Coal is mostly carbon atoms arranged in complex structures:
+
+```
+Coal molecule structure (simplified):
+    C-C-C-C-C
+    |   |   |
+    C-C-C-C-C
+    |   |   |
+    H   H   H
+
+- Mostly carbon (C) atoms
+- Some hydrogen (H) atoms
+- Strong C-C and C-H bonds storing chemical energy
+```
+
+### 2. **The Combustion Reaction (Breaking & Making Bonds)**
+
+When coal burns with oxygen:
+
+```
+C + O₂ → CO₂ + ENERGY (heat)
+
+At molecular level:
+1. Oxygen molecules (O₂) collide with carbon
+2. C-C bonds BREAK (requires energy)
+3. New C=O bonds FORM (releases MORE energy)
+4. Net result: Energy released as heat
+```
+
+**Energy comparison:**
+
+- Breaking C-C bond: requires 346 kJ/mol
+- Forming C=O bonds: releases 799 kJ/mol
+- **Net energy released: 453 kJ/mol** (this becomes heat!)
+
+### 3. **How Energy Becomes Heat (Molecular Motion)**
+
+The released energy converts to:
+
+```
+Chemical Energy → Kinetic Energy of Molecules
+
+1. CO₂ molecules fly away VERY fast (high velocity)
+2. They collide with air molecules
+3. Energy spreads as molecular vibrations
+4. This IS heat - molecules moving/vibrating faster
+```
+
+**Temperature = Average molecular speed**
+
+- Cold air: molecules move ~400 m/s
+- Hot flame: molecules move ~1000+ m/s
+
+### 4. **Heat Transfer to Water**
+
+```
+Fast-moving air molecules → Hit water container → Water molecules speed up
+
+Water molecule before heating:     Water molecule after heating:
+      H-O-H                              H-O-H
+        |                                ≈≈≈≈≈
+    (vibrating slowly)              (vibrating faster)
+```
+
+### 5. **The Molecular View of Temperature Rise**
+
+**1 BTU raises 1 pound of water by 1°F means:**
+
+```
+- 1.5 × 10²³ water molecules
+- Each gains ~6.7 × 10⁻²¹ joules of kinetic energy
+- Molecules move ~0.3% faster
+- We measure this as 1°F temperature rise
+```
+
+### 6. **From Warm to Boiling (The Phase Change)**
+
+As water molecules gain more energy:
+
+**60°F (15°C) - Cold Water:**
+
+```
+H₂O---H₂O---H₂O
+ |     |     |
+H₂O---H₂O---H₂O
+Molecules held by hydrogen bonds, vibrating slowly
+```
+
+**150°F (65°C) - Hot Water:**
+
+```
+H₂O~~H₂O~~~H₂O
+  \   /  \  /
+   H₂O~~~~H₂O
+Molecules vibrating faster, bonds stretching
+```
+
+**212°F (100°C) - Boiling:**
+
+```
+   H₂O     H₂O
+     ↑       ↑
+H₂O  |   H₂O |
+     ↑       ↑
+Molecules have enough energy to break free!
+```
+
+### The Complete Energy Flow:
+
+```
+1. CHEMICAL BONDS (coal)
+   ↓ (combustion breaks C-C, forms C=O)
+2. KINETIC ENERGY (fast CO₂ molecules)
+   ↓ (collisions with air)
+3. THERMAL ENERGY (hot air molecules)
+   ↓ (conduction through pot)
+4. WATER MOLECULE VIBRATION (temperature rise)
+   ↓ (enough energy added)
+5. PHASE CHANGE (liquid → gas)
+```
+
+### Energy Numbers for 1 BTU:
+
+- **1 BTU = 1,055 joules**
+- Contains ~6.6 × 10²¹ molecular bond-breaking events
+- Speeds up ~10²³ water molecules by 0.3%
+- Or gives ~10²¹ water molecules enough energy to become steam
+
+### Why Does This Matter?
+
+When your AC removes 12,000 BTU/hr, it's literally slowing down the motion of trillions upon trillions of air molecules in your room, moving that molecular kinetic energy outside!
+
+
+
+---
+
+
+
+Excellent question! Let me explain what a joule actually means at the molecular level:
+
+## What is a Joule at the Molecular Scale?
+
+### 1. **The Fundamental Definition**
+
+A joule is the energy needed to:
+
+- Move 1 kg mass at 1 m/s² for 1 meter
+- OR apply 1 Newton force over 1 meter distance
+
+**But at molecular level, we deal with TINY amounts:**
+
+```
+1 Joule at human scale = 6.24 × 10¹⁸ eV (electron volts) at molecular scale
+```
+
+### 2. **Joules in Different Molecular Forms**
+
+#### **A. Kinetic Energy (Moving Molecules)**
+
+```
+Energy = ½ × mass × velocity²
+
+One oxygen molecule at room temperature:
+- Mass: 5.3 × 10⁻²⁶ kg
+- Speed: ~480 m/s
+- Kinetic energy: 6.1 × 10⁻²¹ joules
+
+So 1 Joule = ~164 quadrillion O₂ molecules moving at room temperature
+```
+
+#### **B. Chemical Bond Energy**
+
+```
+Breaking one C-H bond requires: 6.9 × 10⁻¹⁹ joules
+Breaking one O=O bond requires: 8.2 × 10⁻¹⁹ joules
+
+So 1 Joule can break ~1.4 × 10¹⁸ C-H bonds
+```
+
+#### **C. Photon Energy (Light)**
+
+```
+One visible light photon: ~3-4 × 10⁻¹⁹ joules
+One UV photon: ~6 × 10⁻¹⁹ joules
+
+So 1 Joule = ~3 × 10¹⁸ visible light photons
+```
+
+### 3. **Visualizing Molecular Joules**
+
+#### **Single Molecule Examples:**
+
+```
+SLOW MOLECULE          FAST MOLECULE
+    O=O                    O=O
+     ·                    ≈≈≈≈≈
+(300 m/s)               (600 m/s)
+3.8×10⁻²¹ J            1.5×10⁻²⁰ J
+
+The faster molecule has 4× more energy!
+```
+
+#### **Temperature and Molecular Energy:**
+
+```
+Average molecular kinetic energy = (3/2) × k × T
+
+Where k = Boltzmann constant = 1.38 × 10⁻²³ J/K
+
+At 300K (room temp): Each molecule has ~6.2 × 10⁻²¹ J
+At 600K (hot):       Each molecule has ~1.2 × 10⁻²⁰ J
+```
+
+### 4. **Real Examples at Molecular Scale**
+
+#### **1 Joule equals:**
+
+| Form            | Molecular Events                                   |
+| --------------- | -------------------------------------------------- |
+| **Kinetic**     | 10¹⁸ air molecules speeding up from 400 to 566 m/s |
+| **Chemical**    | Breaking 10¹⁸ hydrogen bonds in water              |
+| **Vibrational** | 10²⁰ molecular vibrations in a solid               |
+| **Rotational**  | 10²¹ molecular rotations in a gas                  |
+| **Electronic**  | Exciting 10¹⁸ electrons to higher orbitals         |
+
+### 5. **How Energy Moves Between Molecules**
+
+```
+COLLISION TRANSFER:
+Before:  O₂→→→→  +  N₂·     (fast O₂, slow N₂)
+During:  O₂|N₂              (energy transferring)
+After:   O₂→→  +  N₂→→      (energy shared)
+
+Energy is conserved but redistributed!
+```
+
+### 6. **The BTU Connection**
+
+**1 BTU = 1,055 Joules means:**
+
+```
+At molecular level, 1 BTU represents:
+- 6.6 × 10²¹ molecular kinetic energy units
+- Enough to break 10²¹ chemical bonds
+- Energy in 10²² molecular collisions
+- Vibrations of 10²³ molecules increasing slightly
+```
+
+### 7. **Why This Matters for Your AC**
+
+When your AC removes 12,000 BTU/hr, it's actually:
+
+```
+- Slowing down 10²⁶ air molecules per second
+- Transferring 10²² joules of molecular kinetic energy
+- Moving the "fast" molecules outside
+- Leaving "slower" (cooler) molecules inside
+```
+
+**The key insight:** A joule at molecular level is the currency of molecular motion, vibration, and chemical bonds. Temperature is just our way of measuring the average "wealth" (kinetic energy) of molecules!
+
+
+
+---
+
+
+
 #### outline of emission factors
 
 Here's a concise outline of emission factors:
