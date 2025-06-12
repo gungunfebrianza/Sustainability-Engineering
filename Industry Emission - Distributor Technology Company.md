@@ -110,6 +110,95 @@ Note : Delivery trucks typically consume more fuel per km but may be used less f
 
 
 
+# Fuel Consumption of Company-Owned ATM Delivery Vehicles
+
+## Scenario: ATM Distributor Fleet Operations
+
+| Name Activity                             | Category Activity           | Emission Source              | Emission Factor (EPA) | Unit           | GWP  | GHG Type | Quantity Source Emissions | Total Calculation  |
+| ----------------------------------------- | --------------------------- | ---------------------------- | --------------------- | -------------- | ---- | -------- | ------------------------- | ------------------ |
+| Heavy-duty diesel trucks - ATM delivery   | Mobile Combustion - Scope 1 | Diesel fuel combustion       | 10.21                 | kg CO2e/gallon | 1    | CO2      | 11,889 gallons/year       | 121,386.69 kg CO2e |
+| Medium-duty diesel trucks - ATM delivery  | Mobile Combustion - Scope 1 | Diesel fuel combustion       | 10.21                 | kg CO2e/gallon | 1    | CO2      | 6,604 gallons/year        | 67,426.84 kg CO2e  |
+| Light-duty diesel vans - Local delivery   | Mobile Combustion - Scope 1 | Diesel fuel combustion       | 10.21                 | kg CO2e/gallon | 1    | CO2      | 3,170 gallons/year        | 32,365.70 kg CO2e  |
+| Gasoline cargo vans - Urban delivery      | Mobile Combustion - Scope 1 | Gasoline combustion          | 8.78                  | kg CO2e/gallon | 1    | CO2      | 3,170 gallons/year        | 27,832.60 kg CO2e  |
+| Heavy-duty diesel trucks - CH4 emissions  | Mobile Combustion - Scope 1 | Diesel fuel combustion (CH4) | 0.0051                | kg CH4/gallon  | 28   | CH4      | 11,889 gallons/year       | 1,698.23 kg CO2e   |
+| Medium-duty diesel trucks - CH4 emissions | Mobile Combustion - Scope 1 | Diesel fuel combustion (CH4) | 0.0048                | kg CH4/gallon  | 28   | CH4      | 6,604 gallons/year        | 887.90 kg CO2e     |
+| Light-duty diesel vans - CH4 emissions    | Mobile Combustion - Scope 1 | Diesel fuel combustion (CH4) | 0.0005                | kg CH4/gallon  | 28   | CH4      | 3,170 gallons/year        | 44.38 kg CO2e      |
+| Gasoline cargo vans - CH4 emissions       | Mobile Combustion - Scope 1 | Gasoline combustion (CH4)    | 0.0003                | kg CH4/gallon  | 28   | CH4      | 3,170 gallons/year        | 26.63 kg CO2e      |
+| Heavy-duty diesel trucks - N2O emissions  | Mobile Combustion - Scope 1 | Diesel fuel combustion (N2O) | 0.0010                | kg N2O/gallon  | 265  | N2O      | 11,889 gallons/year       | 3,150.59 kg CO2e   |
+| Medium-duty diesel trucks - N2O emissions | Mobile Combustion - Scope 1 | Diesel fuel combustion (N2O) | 0.0010                | kg N2O/gallon  | 265  | N2O      | 6,604 gallons/year        | 1,750.06 kg CO2e   |
+| Light-duty diesel vans - N2O emissions    | Mobile Combustion - Scope 1 | Diesel fuel combustion (N2O) | 0.0001                | kg N2O/gallon  | 265  | N2O      | 3,170 gallons/year        | 84.01 kg CO2e      |
+| Gasoline cargo vans - N2O emissions       | Mobile Combustion - Scope 1 | Gasoline combustion (N2O)    | 0.0003                | kg N2O/gallon  | 265  | N2O      | 3,170 gallons/year        | 252.02 kg CO2e     |
+
+**Summary by Fuel Type**
+
+**Diesel Vehicles Total**
+
+- **Total Diesel Consumption**: 21,663 gallons/year (82,000 liters/year)
+
+- Total Diesel Emissions
+
+  : 228,589.1 kg CO2e/year
+
+  - CO2: 221,179.2 kg
+  - CH4: 2,630.5 kg CO2e
+  - N2O: 4,984.7 kg CO2e
+
+**Gasoline Vehicles Total**
+
+- **Total Gasoline Consumption**: 3,170 gallons/year (12,000 liters/year)
+
+- Total Gasoline Emissions
+
+  : 28,111.3 kg CO2e/year
+
+  - CO2: 27,832.6 kg
+  - CH4: 26.6 kg CO2e
+  - N2O: 252.0 kg CO2e
+
+**Grand Total Fleet Emissions**
+
+**Total Annual Emissions from ATM Delivery Fleet: 256,700.4 kg CO2e (256.7 metric tons CO2e)**
+
+**Notes on Calculations**
+
+1. **Emission Factors Source**: EPA Emission Factors for Greenhouse Gas Inventories (March 2024)
+   - Table 2: Mobile Combustion CO2 Emission Factors
+   - Table 3: Mobile Combustion CH4 and N2O Emission Factors
+2. **Vehicle Categories**:
+   - Heavy-duty trucks (Class 8): Used for bulk ATM deliveries, long-distance routes
+   - Medium-duty trucks (Class 6-7): Regional distribution, multiple ATM deliveries
+   - Light-duty vans: Last-mile delivery, single ATM installations
+   - Gasoline vans: Urban deliveries where diesel restrictions apply
+3. **GWP Values** (IPCC AR6):
+   - CO2: 1
+   - CH4: 28
+   - N2O: 265
+4. **Calculation Formula**:
+   - For CO2: Fuel Quantity × CO2 Emission Factor
+   - For CH4 & N2O: Fuel Quantity × Gas Emission Factor × GWP
+5. **Data Collection Requirements**:
+   - Track fuel purchases by vehicle type
+   - Maintain fuel logs by vehicle class
+   - Record odometer readings for verification
+   - Monitor fuel efficiency trends
+
+**Recommendations for Emissions Reduction**
+
+1. **Fleet Optimization**:
+   - Route optimization software to reduce total miles driven
+   - Load consolidation to maximize delivery efficiency
+   - Consider electric or hybrid vehicles for urban routes
+2. **Fuel Efficiency**:
+   - Driver training on eco-driving techniques
+   - Regular vehicle maintenance schedules
+   - Tire pressure monitoring systems
+3. **Alternative Fuels**:
+   - Biodiesel blends (B20) for compatible diesel vehicles
+   - Compressed natural gas (CNG) for new vehicle purchases
+   - Electric vehicles for short-range urban deliveries
+
+
+
 ---
 
 
@@ -127,6 +216,39 @@ Note : Delivery trucks typically consume more fuel per km but may be used less f
 - May include specialized equipment (diagnostic tools, lifts)
 
 **Example**: A technician drives a service van 80 km to fix a card reader jam at a single ATM location
+
+Based on the service vehicle characteristics for ATM maintenance, here's a detailed emissions calculation table:
+
+| Name Activity              | Category Activity | Emission Source                   | Emission Factor (EPA) | Unit           | GWP  | GHG Type | Quantity Source Emissions | Total Calculation        |
+| -------------------------- | ----------------- | --------------------------------- | --------------------- | -------------- | ---- | -------- | ------------------------- | ------------------------ |
+| Service Van - Gasoline     | Mobile Combustion | 15 Ford Transit vans (gasoline)   | 8.78                  | kg CO2e/gallon | 1    | CO2      | 18,000 gallons/year       | 158,040 kg CO2e          |
+| Service Van - Gasoline CH4 | Mobile Combustion | 15 Ford Transit vans (gasoline)   | 0.38                  | g CH4/mile     | 28   | CH4      | 450,000 miles/year        | 4,788 kg CO2e            |
+| Service Van - Gasoline N2O | Mobile Combustion | 15 Ford Transit vans (gasoline)   | 0.04                  | g N2O/mile     | 265  | N2O      | 450,000 miles/year        | 4,770 kg CO2e            |
+| Light Truck - Diesel       | Mobile Combustion | 8 Chevrolet Express 2500 (diesel) | 10.21                 | kg CO2e/gallon | 1    | CO2      | 12,000 gallons/year       | 122,520 kg CO2e          |
+| Light Truck - Diesel CH4   | Mobile Combustion | 8 Chevrolet Express 2500 (diesel) | 0.051                 | g CH4/mile     | 28   | CH4      | 240,000 miles/year        | 343 kg CO2e              |
+| Light Truck - Diesel N2O   | Mobile Combustion | 8 Chevrolet Express 2500 (diesel) | 0.048                 | g N2O/mile     | 265  | N2O      | 240,000 miles/year        | 3,053 kg CO2e            |
+| Hybrid Service Vehicle     | Mobile Combustion | 5 Toyota Sienna Hybrid            | 8.78                  | kg CO2e/gallon | 1    | CO2      | 4,500 gallons/year        | 39,510 kg CO2e           |
+| Hybrid Service Vehicle CH4 | Mobile Combustion | 5 Toyota Sienna Hybrid            | 0.38                  | g CH4/mile     | 28   | CH4      | 125,000 miles/year        | 1,330 kg CO2e            |
+| Hybrid Service Vehicle N2O | Mobile Combustion | 5 Toyota Sienna Hybrid            | 0.04                  | g N2O/mile     | 265  | N2O      | 125,000 miles/year        | 1,325 kg CO2e            |
+| **Total Fleet Emissions**  |                   |                                   |                       |                |      |          |                           | **335,679 kg CO2e/year** |
+
+**Key Assumptions for Calculations**:
+
+- Average 30,000 miles/year per gasoline van (80-100 km/day service routes)
+- Average 30,000 miles/year per diesel truck (heavier equipment transport)
+- Average 25,000 miles/year per hybrid vehicle (urban routes)
+- Gasoline vans: 25 mpg average
+- Diesel trucks: 20 mpg average
+- Hybrid vehicles: 36 mpg average
+- EPA emission factors from EPA GHG Emission Factors Hub (2024)
+- GWP values from IPCC AR6
+
+**Additional Context**:
+
+- Service calls average 80 km round trip
+- Each vehicle handles 6-8 service calls per day
+- Fleet includes tool storage, diagnostic equipment, spare parts inventory
+- Some vehicles equipped with lifts for heavy component replacement
 
 
 
@@ -163,7 +285,120 @@ Refrigerant charge × Leakage rate × GWP = Annual emissions
 
 
 
+# Refrigerant Emissions from Warehouse/Office HVAC Systems
+
+## Emission Calculation Table
+
+| Name Activity               | Category Activity                  | Emission Source            | Emission Factor (EPA)    | Unit                | GWP   | GHG Type                                          | Quantity Source Emissions                     | Total Calculation                   |
+| --------------------------- | ---------------------------------- | -------------------------- | ------------------------ | ------------------- | ----- | ------------------------------------------------- | --------------------------------------------- | ----------------------------------- |
+| Office Building AC Units    | Fugitive Emissions - Refrigeration | R-410A Refrigerant Leakage | 2.0% annual leakage rate | kg refrigerant/year | 2,088 | HFC Blend (50% HFC-32, 50% HFC-125)               | Total charge: 25 kg × 2% = 0.5 kg leakage     | 0.5 kg × 2,088 = 1,044 kg CO2e      |
+| Warehouse Rooftop Units     | Fugitive Emissions - Refrigeration | R-410A Refrigerant Leakage | 2.0% annual leakage rate | kg refrigerant/year | 2,088 | HFC Blend (50% HFC-32, 50% HFC-125)               | Total charge: 120 kg × 2% = 2.4 kg leakage    | 2.4 kg × 2,088 = 5,011.2 kg CO2e    |
+| Server Room Cooling         | Fugitive Emissions - Refrigeration | R-134a Refrigerant Leakage | 1.5% annual leakage rate | kg refrigerant/year | 1,430 | HFC-134a                                          | Total charge: 15 kg × 1.5% = 0.225 kg leakage | 0.225 kg × 1,430 = 321.75 kg CO2e   |
+| Office Building AC Disposal | Fugitive Emissions - Refrigeration | R-410A End-of-Life Release | 10% disposal loss rate   | kg refrigerant      | 2,088 | HFC Blend (50% HFC-32, 50% HFC-125)               | 1 unit replaced: 8 kg × 10% = 0.8 kg released | 0.8 kg × 2,088 = 1,670.4 kg CO2e    |
+| Warehouse Chiller           | Fugitive Emissions - Refrigeration | R-407C Refrigerant Leakage | 2.5% annual leakage rate | kg refrigerant/year | 1,774 | HFC Blend (23% HFC-32, 25% HFC-125, 52% HFC-134a) | Total charge: 45 kg × 2.5% = 1.125 kg leakage | 1.125 kg × 1,774 = 1,995.75 kg CO2e |
+| Office Split Systems        | Fugitive Emissions - Refrigeration | R-32 Refrigerant Leakage   | 1.5% annual leakage rate | kg refrigerant/year | 675   | HFC-32                                            | Total charge: 18 kg × 1.5% = 0.27 kg leakage  | 0.27 kg × 675 = 182.25 kg CO2e      |
+| **TOTAL ANNUAL EMISSIONS**  |                                    |                            |                          |                     |       |                                                   | **Total Refrigerant Leakage: 4.72 kg**        | **10,225.35 kg CO2e**               |
+
+**Additional Details for Complete Reporting**
+
+**Equipment Inventory**
+
+- **Office Building**: 5 rooftop units (5 kg R-410A each), 6 split systems (3 kg R-32 each)
+- **Warehouse**: 3 large rooftop units (40 kg R-410A each), 1 chiller (45 kg R-407C)
+- **Server Room**: 2 precision cooling units (7.5 kg R-134a each)
+
+**Leakage Rate Sources**
+
+- EPA default factors for commercial refrigeration equipment
+- Enhanced rates for older equipment (>10 years)
+- Lower rates for new equipment with leak detection systems
+
+**Key Assumptions**
+
+- Annual service records used to track actual refrigerant additions
+- Disposal emissions calculated only for equipment replaced during reporting year
+- GWP values from IPCC Fifth Assessment Report (AR5)
+
+**Data Quality Notes**
+
+- Actual leakage data preferred over default emission factors where available
+- Service technician logs provide refrigerant addition quantities
+- Equipment nameplates document total refrigerant charge capacity
+
+
+
 ---
+
+
+
+# Backup Generator Emissions Calculation
+
+Example Answer: 2 Diesel Generators, 500 Liters/Year Total
+
+| Name Activity          | Category Activity     | Emission Source        | Emission Factor (EPA) | Unit          | GWP  | GHG Type | Quantity Source Emissions | Total Calculation                 |
+| ---------------------- | --------------------- | ---------------------- | --------------------- | ------------- | ---- | -------- | ------------------------- | --------------------------------- |
+| Diesel Generator - CO2 | Stationary Combustion | Diesel fuel combustion | 10.21                 | kg CO2/gallon | 1    | CO2      | 132.09 gallons (500 L)    | 1,349.64 kg CO2                   |
+| Diesel Generator - CH4 | Stationary Combustion | Diesel fuel combustion | 0.0006                | kg CH4/gallon | 28   | CH4      | 132.09 gallons (500 L)    | 0.079 kg CH4 × 28 = 2.21 kg CO2e  |
+| Diesel Generator - N2O | Stationary Combustion | Diesel fuel combustion | 0.0001                | kg N2O/gallon | 265  | N2O      | 132.09 gallons (500 L)    | 0.013 kg N2O × 265 = 3.45 kg CO2e |
+
+**Total Annual Emissions: 1,355.30 kg CO2e (1.36 metric tons CO2e)**
+
+**Emission Factor Sources and Notes:**
+
+**EPA Emission Factors Used:**
+
+- Source: EPA Emission Factors for Greenhouse Gas Inventories (March 2024)
+- Table 1.3 - Stationary Combustion Emission Factors
+- Diesel fuel density: 3.785 liters/gallon
+
+**GWP Values:**
+
+- Based on IPCC Sixth Assessment Report (AR6)
+- 100-year time horizon values
+
+**Conversion Calculations:**
+
+- 500 liters ÷ 3.785 liters/gallon = 132.09 gallons
+- CO2: 132.09 gallons × 10.21 kg CO2/gallon = 1,349.64 kg CO2
+- CH4: 132.09 gallons × 0.0006 kg CH4/gallon × 28 GWP = 2.21 kg CO2e
+- N2O: 132.09 gallons × 0.0001 kg N2O/gallon × 265 GWP = 3.45 kg CO2e
+
+## Alternative Calculation Using Higher Heating Value (HHV):
+
+| Name Activity                | Category Activity     | Emission Source        | Emission Factor (EPA) | Unit         | GWP  | GHG Type | Quantity Source Emissions | Total Calculation |
+| ---------------------------- | --------------------- | ---------------------- | --------------------- | ------------ | ---- | -------- | ------------------------- | ----------------- |
+| Diesel Generator - CO2 (HHV) | Stationary Combustion | Diesel fuel combustion | 73.96                 | kg CO2/MMBtu | 1    | CO2      | 18.24 MMBtu               | 1,349.23 kg CO2   |
+| Diesel Generator - CH4 (HHV) | Stationary Combustion | Diesel fuel combustion | 0.003                 | g CH4/MMBtu  | 28   | CH4      | 18.24 MMBtu               | 1.53 kg CO2e      |
+| Diesel Generator - N2O (HHV) | Stationary Combustion | Diesel fuel combustion | 0.0006                | g N2O/MMBtu  | 265  | N2O      | 18.24 MMBtu               | 2.90 kg CO2e      |
+
+**HHV Conversion:**
+
+- Diesel HHV: 138,074 Btu/gallon
+- 132.09 gallons × 138,074 Btu/gallon = 18.24 MMBtu
+
+**Total using HHV method: 1,353.66 kg CO2e**
+
+**Additional Considerations:**
+
+1. **Operating Hours**: If available, track hours of operation for more accurate activity data
+2. **Generator Size**: Larger generators may have different emission factors
+3. **Maintenance**: Well-maintained generators typically have lower CH4 and N2O emissions
+4. **Load Factor**: Emissions can vary based on generator load (% of capacity used)
+5. **Fuel Quality**: Ultra-low sulfur diesel (ULSD) is standard in most regions
+
+**Data Quality Notes:**
+
+- **Uncertainty**: ±5% for CO2, ±50% for CH4 and N2O based on EPA guidance
+- **Recommendation**: Install hour meters on generators for more precise tracking
+- **Best Practice**: Keep fuel purchase records as backup documentation
+
+
+
+---
+
+
+
+
 
 
 
