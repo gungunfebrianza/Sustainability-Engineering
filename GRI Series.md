@@ -319,6 +319,8 @@ These standards provide a comprehensive framework for sustainability reporting a
 | Are there any significant estimations or assumptions in the data provided? | Qualitative   | Text area  | Text      | Climate risk estimates based on internal modeling; pension obligations use standard actuarial assumptions |
 | What is your confidence level in the accuracy of this data?  | Categorical   | Dropdown   | Text      | High (>95% confident)                                        |
 
+
+
 # GRI 202 Market Presence
 
 ## Disclosure 202-1: Ratios of standard entry level wage by gender compared to local minimum wage

@@ -1,4 +1,40 @@
-# SustainabilityEngineering
+# Sustainability Engineering
+
+
+
+| Name                                | Description                          | Source                                                       |
+| ----------------------------------- | ------------------------------------ | ------------------------------------------------------------ |
+| FAQs - Envicount                    | Envicount Carbon Management Solution | [Link](https://github.com/gungunfebrianza/Sustainability-Engineering/blob/main/FAQs.md) |
+| GRI Series                          | GRI Data                             | Link                                                         |
+| SASB Series                         | SASB Data                            | Link                                                         |
+| OJK POJK No. 51                     | Sustainability Reporting             | [Link](https://github.com/gungunfebrianza/Sustainability-Engineering/blob/main/POJK%2051%20-%20Sustainable%20Reporting.md) |
+| Sustainability Framework Comparison | GRI,SASB,TCFD                        | [Link](https://github.com/gungunfebrianza/Sustainability-Engineering/blob/main/Sustainability%20Framework%20Comparison.md) |
+
+
+
+
+
+# Table of Contents 
+
+- ESG & Its raison d'etre
+  - Investor & Stakeholder Demand
+  - Regulatory Compliance
+  - Risk Mitigation
+  - Competitive Advantage
+  - Long-term Value Creation
+  - Societal & Ethical Accountability
+  - Key ESG Reporting Framework
+  - Challenges
+- Investor & Stakeholder Demand
+  - How ESG Reporting Facilities Capital Access
+  - Why Investor & Stakeholders Must Assess ESG Reports
+  - Causal Loop Model : EG Reporting - Capital Access
+  - How Envi-count Platform Helps Business Access Capital
+  - How Envi-count Platform Serves Investors
+  - Causal Loop Accelerated By Envi-count Platform
+  - Technical AI Architecture to Build
+  - Go-to-Market Positioning
+  - The Bottom Line
 
 
 
@@ -366,7 +402,7 @@ Your platform becomes the **operating system for sustainable finance** by:
 
 
 
-## Key ESG Reporting Frameworks:
+## Key ESG Reporting Frameworks
 
 - **GRI**: Global standard for impact disclosure.
 - **SASB**: Industry-specific financial materiality.
@@ -375,7 +411,7 @@ Your platform becomes the **operating system for sustainable finance** by:
 
 
 
-## Challenges:
+## Challenges
 
 - **Greenwashing**: Vague claims without data erode trust. Robust reporting requires audited metrics.
 - **Complexity**: Varying standards create confusion. Harmonization efforts (e.g., ISSB) aim to simplify.
