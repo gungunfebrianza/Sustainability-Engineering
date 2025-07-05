@@ -1,0 +1,40 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="GRqD9uXKQO6PxAvWfidw">
+    <mxGraphModel dx="1426" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c4COYmrEeLiOJgaTeRZ0-1" value="&lt;span style=&quot;font-family: Georgia, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 14px; text-align: left;&quot;&gt;Major GHGs in the Atmosphere&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="260" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c4COYmrEeLiOJgaTeRZ0-2" value="&lt;span style=&quot;font-family: Georgia, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 14px; text-align: left;&quot;&gt;Carbon Dioxide (CO2)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="320" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c4COYmrEeLiOJgaTeRZ0-3" value="&lt;span style=&quot;font-family: Georgia, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 14px; text-align: left;&quot;&gt;Methane (CH4)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="320" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c4COYmrEeLiOJgaTeRZ0-5" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Georgia, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Nitrous Oxide (N2O)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c4COYmrEeLiOJgaTeRZ0-6" value="&lt;span style=&quot;font-family: Georgia, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 14px; text-align: left;&quot;&gt;Important Factors of Green House Gas Emission&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="440" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c4COYmrEeLiOJgaTeRZ0-7" value="&lt;span style=&quot;font-family: Georgia, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 14px; text-align: left;&quot;&gt;Increasing Energy Demand&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="500" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c4COYmrEeLiOJgaTeRZ0-8" value="&lt;span style=&quot;font-family: Georgia, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 14px; text-align: left;&quot;&gt;GDP vs Emissions&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="500" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c4COYmrEeLiOJgaTeRZ0-9" value="&lt;span style=&quot;font-family: Georgia, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 14px; text-align: left;&quot;&gt;Urbanization&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="500" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c4COYmrEeLiOJgaTeRZ0-10" value="&lt;span style=&quot;font-family: Georgia, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 14px; text-align: left;&quot;&gt;Growing Vehicle Use&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="560" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c4COYmrEeLiOJgaTeRZ0-11" value="&lt;span style=&quot;font-family: Georgia, &amp;quot;Times New Roman&amp;quot;, Times, serif; font-size: 14px; text-align: left;&quot;&gt;Industry&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="560" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

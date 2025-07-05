@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Market Challenges Quadrant Analysis</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #e8f5e9 0%, #e3f2fd 100%);
+            color: #2c3e50;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            margin-bottom: 30px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+            border-left: 5px solid #2e7d32;
+            border-right: 5px solid #2e7d32;
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+            color: #1a5c40;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .subtitle {
+            font-size: 1.3rem;
+            color: #3498db;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1.3fr 0.7fr;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .chart-container {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            height: 650px;
+            position: relative;
+        }
+        
+        .chart-title {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #1a5c40;
+            font-size: 1.6rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .quadrants-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+        
+        .quadrant-section {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+            padding: 25px;
+            transition: transform 0.3s ease;
+        }
+        
+        .quadrant-section:hover {
+            transform: translateY(-5px);
+        }
+        
+        .quadrant-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid;
+        }
+        
+        .quadrant-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-right: 15px;
+        }
+        
+        .quadrant-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+        
+        .challenge-list {
+            list-style-type: none;
+        }
+        
+        .challenge-list li {
+            padding: 14px 18px;
+            margin-bottom: 12px;
+            border-radius: 10px;
+            background: #f8f9fa;
+            border-left: 4px solid;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+        
+        .challenge-icon {
+            min-width: 24px;
+            color: #2e7d32;
+            font-size: 1.1rem;
+        }
+        
+        .challenge-content h4 {
+            font-size: 1.1rem;
+            margin-bottom: 6px;
+            color: #2c3e50;
+        }
+        
+        .challenge-content p {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.5;
+        }
+        
+        .q1 { border-top: 4px solid #e74c3c; }
+        .q2 { border-top: 4px solid #f1c40f; }
+        .q3 { border-top: 4px solid #2ecc71; }
+        .q4 { border-top: 4px solid #3498db; }
+        
+        .q1 .quadrant-header { border-color: #e74c3c; }
+        .q2 .quadrant-header { border-color: #f1c40f; }
+        .q3 .quadrant-header { border-color: #2ecc71; }
+        .q4 .quadrant-header { border-color: #3498db; }
+        
+        .q1 .quadrant-icon { background: #e74c3c; }
+        .q2 .quadrant-icon { background: #f1c40f; }
+        .q3 .quadrant-icon { background: #2ecc71; }
+        .q4 .quadrant-icon { background: #3498db; }
+        
+        .q1 .challenge-list li { border-color: #e74c3c; }
+        .q2 .challenge-list li { border-color: #f1c40f; }
+        .q3 .challenge-list li { border-color: #2ecc71; }
+        .q4 .challenge-list li { border-color: #3498db; }
+        
+        .legend-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 12px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+            margin-top: 30px;
+        }
+        
+        .footer h3 {
+            color: #1a5c40;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+        
+        .insights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            text-align: left;
+            margin-top: 25px;
+        }
+        
+        .insight-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 4px solid #2e7d32;
+        }
+        
+        .insight-card h4 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+            color: #1a5c40;
+        }
+        
+        @media (max-width: 1100px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .quadrants-info {
+                grid-template-columns: 1fr;
+            }
+            
+            .chart-container {
+                height: 500px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            .subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .chart-title {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-leaf"></i> Carbon Market Challenges Quadrant Analysis</h1>
+            <p class="subtitle">Visualizing key problems in carbon markets based on impact severity and solution complexity</p>
+        </header>
+        
+        <div class="grid-container">
+            <div class="chart-container">
+                <h2 class="chart-title"><i class="fas fa-chart-scatter"></i> Carbon Market Challenges Matrix</h2>
+                <canvas id="quadrantChart"></canvas>
+                
+                <div class="legend-container">
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #e74c3c;"></div>
+                        <span>Critical Priorities</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #f1c40f;"></div>
+                        <span>Governance Challenges</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #2ecc71;"></div>
+                        <span>Manageable Issues</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #3498db;"></div>
+                        <span>Actionable Problems</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="quadrants-info">
+                <div class="quadrant-section q1">
+                    <div class="quadrant-header">
+                        <div class="quadrant-icon">I</div>
+                        <div class="quadrant-title">Critical Priorities</div>
+                    </div>
+                    <ul class="challenge-list">
+                        <li>
+                            <div class="challenge-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                            <div class="challenge-content">
+                                <h4>Integrity & Credibility</h4>
+                                <p>Questionable carbon credits, double counting, permanence risks, and recent scandals</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="challenge-icon"><i class="fas fa-puzzle-piece"></i></div>
+                            <div class="challenge-content">
+                                <h4>Fragmentation & Regulation</h4>
+                                <p>Over 70 different systems globally, lack of global standards, policy instability</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="quadrant-section q2">
+                    <div class="quadrant-header">
+                        <div class="quadrant-icon">II</div>
+                        <div class="quadrant-title">Governance Challenges</div>
+                    </div>
+                    <ul class="challenge-list">
+                        <li>
+                            <div class="challenge-icon"><i class="fas fa-balance-scale"></i></div>
+                            <div class="challenge-content">
+                                <h4>Equity & Justice</h4>
+                                <p>Concentrated benefits, community impacts, ethical questions about burden-sharing</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="quadrant-section q3">
+                    <div class="quadrant-header">
+                        <div class="quadrant-icon">III</div>
+                        <div class="quadrant-title">Manageable Issues</div>
+                    </div>
+                    <ul class="challenge-list">
+                        <li>
+                            <div class="challenge-icon"><i class="fas fa-chart-line"></i></div>
+                            <div class="challenge-content">
+                                <h4>Market Liquidity</h4>
+                                <p>Thin trading in many compliance markets, price volatility, speculation risks</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="quadrant-section q4">
+                    <div class="quadrant-header">
+                        <div class="quadrant-icon">IV</div>
+                        <div class="quadrant-title">Actionable Problems</div>
+                    </div>
+                    <ul class="challenge-list">
+                        <li>
+                            <div class="challenge-icon"><i class="fas fa-scale-balanced"></i></div>
+                            <div class="challenge-content">
+                                <h4>Supply-Demand Imbalance</h4>
+                                <p>Oversupply of low-quality credits, weak demand, price suppression</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="challenge-icon"><i class="fas fa-mask"></i></div>
+                            <div class="challenge-content">
+                                <h4>Corporate Greenwashing</h4>
+                                <p>Risks of misleading claims, avoidance of actual emission cuts</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="challenge-icon"><i class="fas fa-microchip"></i></div>
+                            <div class="challenge-content">
+                                <h4>Technology Gaps</h4>
+                                <p>MRV challenges, digital infrastructure limitations, verification costs</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <h3><i class="fas fa-lightbulb"></i> Strategic Insights</h3>
+            <div class="insights-grid">
+                <div class="insight-card">
+                    <h4><i class="fas fa-fire"></i> Quadrant I Focus</h4>
+                    <p>Critical priorities require immediate attention through international cooperation and regulatory reform. These foundational issues must be addressed for the carbon market to function effectively.</p>
+                </div>
+                <div class="insight-card">
+                    <h4><i class="fas fa-bolt"></i> Quadrant IV Opportunities</h4>
+                    <p>Actionable problems offer the best opportunities for near-term improvements. These can be addressed through market mechanisms, technology solutions, and corporate accountability measures.</p>
+                </div>
+                <div class="insight-card">
+                    <h4><i class="fas fa-chess"></i> Long-Term Strategy</h4>
+                    <p>Governance challenges require systemic changes but offer the potential for transformative impact. Manageable issues should be monitored but don't require significant resources.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const ctx = document.getElementById('quadrantChart').getContext('2d');
+            
+            // Define data points for each quadrant
+            const data = {
+                datasets: [
+                    // Quadrant I: Critical Priorities
+                    {
+                        label: 'Critical Priorities',
+                        data: [
+                            {x: 8.5, y: 8.5, label: 'Integrity & Credibility', description: 'Questionable credits, double counting, permanence risks'},
+                            {x: 8, y: 8.8, label: 'Fragmentation & Regulation', description: '70+ systems, no global standards, policy instability'}
+                        ],
+                        backgroundColor: 'rgba(231, 76, 60, 0.9)',
+                        borderColor: 'rgba(231, 76, 60, 1)',
+                        borderWidth: 2,
+                        pointRadius: 12,
+                        pointHoverRadius: 15
+                    },
+                    // Quadrant II: Complex Governance Challenges
+                    {
+                        label: 'Governance Challenges',
+                        data: [
+                            {x: 4.5, y: 7.5, label: 'Equity & Justice', description: 'Concentrated benefits, community impacts'}
+                        ],
+                        backgroundColor: 'rgba(241, 196, 15, 0.9)',
+                        borderColor: 'rgba(241, 196, 15, 1)',
+                        borderWidth: 2,
+                        pointRadius: 12,
+                        pointHoverRadius: 15
+                    },
+                    // Quadrant III: Manageable Issues
+                    {
+                        label: 'Manageable Issues',
+                        data: [
+                            {x: 4, y: 3.5, label: 'Market Liquidity', description: 'Thin trading, price volatility, speculation'}
+                        ],
+                        backgroundColor: 'rgba(46, 204, 113, 0.9)',
+                        borderColor: 'rgba(46, 204, 113, 1)',
+                        borderWidth: 2,
+                        pointRadius: 12,
+                        pointHoverRadius: 15
+                    },
+                    // Quadrant IV: Actionable Problems
+                    {
+                        label: 'Actionable Problems',
+                        data: [
+                            {x: 7, y: 4.2, label: 'Supply-Demand', description: 'Oversupply, weak demand, price suppression'},
+                            {x: 7.8, y: 3.8, label: 'Greenwashing', description: 'Misleading claims, avoidance of emission cuts'},
+                            {x: 6.2, y: 4.5, label: 'Tech Gaps', description: 'MRV challenges, infrastructure limitations'}
+                        ],
+                        backgroundColor: 'rgba(52, 152, 219, 0.9)',
+                        borderColor: 'rgba(52, 152, 219, 1)',
+                        borderWidth: 2,
+                        pointRadius: 12,
+                        pointHoverRadius: 15
+                    }
+                ]
+            };
+            
+            // Create the chart
+            const quadrantChart = new Chart(ctx, {
+                type: 'scatter',
+                data: data,
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        x: {
+                            min: 0,
+                            max: 10,
+                            title: {
+                                display: true,
+                                text: 'Problem Severity →',
+                                font: {
+                                    size: 16,
+                                    weight: 'bold'
+                                },
+                                padding: {top: 10, bottom: 10}
+                            },
+                            grid: {
+                                color: 'rgba(0, 0, 0, 0.1)'
+                            },
+                            ticks: {
+                                callback: function(value, index, values) {
+                                    if (value === 0) return 'Low';
+                                    if (value === 5) return 'Medium';
+                                    if (value === 10) return 'High';
+                                    return '';
+                                }
+                            }
+                        },
+                        y: {
+                            min: 0,
+                            max: 10,
+                            title: {
+                                display: true,
+                                text: 'Solution Complexity →',
+                                font: {
+                                    size: 16,
+                                    weight: 'bold'
+                                },
+                                padding: {top: 10, bottom: 10}
+                            },
+                            grid: {
+                                color: 'rgba(0, 0, 0, 0.1)'
+                            },
+                            ticks: {
+                                callback: function(value, index, values) {
+                                    if (value === 0) return 'Low';
+                                    if (value === 5) return 'Medium';
+                                    if (value === 10) return 'High';
+                                    return '';
+                                }
+                            }
+                        }
+                    },
+                    plugins: {
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return context.raw.label + ': ' + context.raw.description;
+                                }
+                            }
+                        },
+                        legend: {
+                            display: false
+                        },
+                        annotation: {
+                            annotations: {
+                                lineX: {
+                                    type: 'line',
+                                    scaleID: 'x',
+                                    value: 5,
+                                    borderColor: '#7f8c8d',
+                                    borderWidth: 2,
+                                    borderDash: [5, 5],
+                                },
+                                lineY: {
+                                    type: 'line',
+                                    scaleID: 'y',
+                                    value: 5,
+                                    borderColor: '#7f8c8d',
+                                    borderWidth: 2,
+                                    borderDash: [5, 5],
+                                },
+                                quad1: {
+                                    type: 'label',
+                                    xValue: 7.5,
+                                    yValue: 8.5,
+                                    content: 'Critical Priorities',
+                                    font: {
+                                        size: 14,
+                                        weight: 'bold'
+                                    },
+                                    color: '#e74c3c'
+                                },
+                                quad2: {
+                                    type: 'label',
+                                    xValue: 2.5,
+                                    yValue: 8.5,
+                                    content: 'Governance Challenges',
+                                    font: {
+                                        size: 14,
+                                        weight: 'bold'
+                                    },
+                                    color: '#f1c40f'
+                                },
+                                quad3: {
+                                    type: 'label',
+                                    xValue: 2.5,
+                                    yValue: 1.5,
+                                    content: 'Manageable Issues',
+                                    font: {
+                                        size: 14,
+                                        weight: 'bold'
+                                    },
+                                    color: '#2ecc71'
+                                },
+                                quad4: {
+                                    type: 'label',
+                                    xValue: 7.5,
+                                    yValue: 1.5,
+                                    content: 'Actionable Problems',
+                                    font: {
+                                        size: 14,
+                                        weight: 'bold'
+                                    },
+                                    color: '#3498db'
+                                }
+                            }
+                        }
+                    },
+                    // Add labels directly to points
+                    plugins: [{
+                        afterDraw: function(chart) {
+                            const ctx = chart.ctx;
+                            ctx.font = 'bold 12px Arial';
+                            ctx.textAlign = 'center';
+                            ctx.textBaseline = 'middle';
+                            
+                            chart.data.datasets.forEach(function(dataset, i) {
+                                dataset.data.forEach(function(point, j) {
+                                    const meta = chart.getDatasetMeta(i);
+                                    const model = meta.data[j];
+                                    
+                                    if (model) {
+                                        ctx.fillStyle = 'rgba(0, 0, 0, 0.9)';
+                                        ctx.fillText(point.label, model.x, model.y - 18);
+                                    }
+                                });
+                            });
+                        }
+                    }]
+                }
+            });
+        });
+    </script>
+</body>
+</html>
