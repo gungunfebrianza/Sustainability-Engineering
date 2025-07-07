@@ -1,5 +1,164 @@
 # FAQs
 
+# Apa itu Faktor Emisi?
+
+Faktor emisi adalah rumus matematika yang digunakan untuk mengetahui jumlah emisi yang terlepas dari suatu aktivitas.
+
+**Contoh**
+
+Sebagai contoh Anissa senang sekali menggunakan kendaraan mobil yang menggunakan bahan bakar bensin untuk pergi kekantor. Sesampai di kantor Anissa ingin mengetahui berapa banyak jejak karbon yang telah dilepaskan dari aktivitasnya. Berikut contoh bagaimana faktor emisi membantu Anissa untuk bisa menghitung jejak karbon miliknya :
+
+- Total jarak yang ditempuh bolak balik adalah 30 kilometer. (Round trip)
+- Mobil Anissa mengonsumsi 8 liter bensin per 100 kilometer.
+- Faktor emisi untuk bensin (gasoline) adalah 2.31 kg CO₂ per liter.
+
+Dasar perhitungan :
+
+1. Hitung konsumsi bahan bakar
+
+   ```
+   Konsumsi Bahan Bakar = Jarak × Efisiensi Bahan Bakar
+   Konsumsi Bahan Bakar = Jarak (30 kilometer) x Efisiensi Bahan Bakar (8 L/100 km) 
+   Konsumsi Bahan Bakar = 2.4 liter per hari.
+   ```
+
+   2.4 liter perhari adalah aktivitas berkendara yang dilakukan oleh Anissa. Aktivitas ini kita representasikan dalam variabel A.
+
+2. Terapkan faktor emisi
+
+   ```
+   Emisi = Aktivitas X Faktor Emisi
+   Emisi = 2.4 liter x 2.31 kg CO₂ per liter
+   Emisi = 5.544 kg CO₂ per hari
+   ```
+
+3. Total Emisi selama setahun
+
+   ```
+   Emisi Tahunan = Emisi Harian x Hari Kerja
+   Emisi Tahunan = 5.544 kg CO₂/hari x 250 hari
+   Emisi Tahunan = 1,386 kg CO₂/tahun
+   ```
+
+Bagaimana mudahkan?
+
+Pada kasus lain, faktor emisi juga memiliki representasi yang berbeda tergantung jenis aktivitasnya, contoh di atas adalah aktivitas berkendara, sebagai contoh jika anda menggunakan listrik dari Batu Bara maka anda akan akan menghitung Massa polutan per unit aktivitas (misalnya, g CO2 / kWh), gram CO2 per kilowatt-jam listrik yang dihasilkan.
+
+----
+
+
+
+# Apa itu faktor ketidakpastian emisi?
+
+Baca cerita apa itu faktor emisi dari kisah Anissa?
+
+Saat menghitung jumlah jejak karbon dalam kehidupan nyata kita akan mempertimbangkan faktor ketidak pastian.
+
+```
+E = A × EF ± √[(δA × EF)² + (A × δEF)²]
+```
+
+Berikut notasi ketidakpastian (uncertainty) :
+
+δA = ketidakpastian dalam data aktivitas
+δEF = ketidakpastian dalam faktor emisi
+
+Dari kisa Anissa sebelumnya ia memahami bahwa perhitungannya tidaklah presisi secara sempurna dalam kehidupan nyata, kenapa? karena odometer bisa aja tidak 100 persen akurat, efisiensi bahan bakar juga dapat berubah-ubah tergantung trafik dan cuaca, dan juga faktor emisi itu sendiri sudah dilengkapi dengan ketidakpastian saat diuji oleh para pakar melalui lab.
+
+Dari cerita anissa sebelumnya jika kita menerapkan ketidakpastian maka :
+
+- Jarak (d): 30 km ± 1 km (akurasi odometer)
+- Efisiensi bahan bakar (η): 8 L/100 km ± 0,5 L/100 km (bervariasi tergantung pada kondisi berkendara)
+- Faktor emisi (ρ): 2,31 kg CO₂/L ± 0,12 kg CO₂/L (ketidakpastian pengukuran laboratorium)
+
+Berikut perhitungan ketidakpastian menggunakan formula propagasi error untuk perkalian dan pembagian:
+
+```
+Diketahui:
+d = jarak tempuh harian (km)
+η = efisiensi bahan bakar (L/100km)
+ρ = faktor emisi (kg CO₂/L)
+n = jumlah hari kerja per tahun
+
+δA = ketidakpastian dalam data aktivitas
+δEF = ketidakpastian dalam faktor emisi
+
+A = (d × η)/100
+
+Ketidakpastian relatif pada A:
+(δA/A)² = (δd/d)² + (δη/η)²
+(δA/A)² = (1/30)² + (0.5/8)²
+(δA/A)² = 0.00111 + 0.00391 = 0.00502
+δA/A = √0.00502 = 0.0708 = 7.08%
+
+Ketidakpastian Mutlak:
+δA = A × 0.0708 = 2.4 × 0.0708 = 0.17 L/hari
+```
+
+Ketidapastian dalam faktor emisi
+
+```
+δEF = 0.12 kg CO₂/L 
+```
+
+Menggunakan perhitungan ketidakpastian untuk menghitung total emisi :
+
+```
+E = A × EF
+δE = √[(δA × EF)² + (A × δEF)²]
+
+δE = √[(0.17 × 2.31)² + (2.4 × 0.12)²]
+δE = √[(0.393)² + (0.288)²]
+δE = √[0.154 + 0.083]
+δE = √0.237 = 0.487 kg CO₂/hari
+```
+
+**Hasil perhitungan lengkap dengan ketidakpastian :**
+
+**Emisi Harian :**
+
+```
+E = 5.544 ± 0.487 kg CO₂/hari
+```
+
+**Ini berarti emisi harian Anissa berada di antara:**
+
+Minimum: 5,544 - 0,487 = 5,057 kg CO₂/hari
+Maksimum: 5,544 + 0,487 = 6,031 kg CO₂/hari
+
+**Emisi Tahunan (250 hari kerja) :**
+
+```
+E = (5.544 ± 0.487) × 250
+E = 1,386 ± 122 kg CO₂/tahun
+```
+
+**Kisaran tahunan:**
+
+Minimum: 1.264 kg CO₂/tahun
+Maksimum: 1.508 kg CO₂/tahun
+
+**Tabel Ketidakpastian :**
+
+| Komponen              | Nilai                 | Ketidapastian absolut  | Ketidakpastian Relatif | Kontribusi |
+| --------------------- | --------------------- | ---------------------- | ---------------------- | ---------- |
+| Jarak                 | 30 km                 | ±1 km                  | ±3.33%                 | Kecil      |
+| Efisiensi Bahan Bakar | 8 L/100km             | ±0.5 L/100km           | ±6.25%                 | Sedang     |
+| Faktor Emisi          | 2.31 kg CO₂/L         | ±0.12 kg CO₂/L         | ±5.19%                 | Sedang     |
+| **Emisi Akhir**       | **5.544 kg CO₂/hari** | **±0.487 kg CO₂/hari** | **±8.78%**             | **Total**  |
+
+**Kesimpulan :**
+
+1. **Emisi harian aktualnya bisa berkisar antara 5,1 hingga 6,0 kg CO₂**
+2. **Ketidakpastiannya sekitar ±8,8% dari total emisinya**
+3. **Selama setahun, ketidakpastian ini mewakili ±122 kg CO₂ (setara dengan sekitar 10 hari perjalanan tambahan)**
+
+
+
+# Jenis-jenis faktor emisi?
+
+
+
 # Apa itu Global Warming Potentials (GWP)
 
 GWP adalah ukuran seberapa banyak panas yang terperangkap oleh gas rumah kaca di atmosfer, relatif terhadap karbon dioksida (CO2), selama periode waktu tertentu.
@@ -1369,6 +1528,8 @@ Emission factors are important tools used in environmental science and policy to
 10. Regulatory use: Often used in emissions inventories, environmental impact assessments, and regulatory compliance.
 
 Would you like me to elaborate on any of these properties or discuss how emission factors are used in practice?
+
+
 
 
 

@@ -718,3 +718,196 @@ This comprehensive framework enables the financial services sector to effectivel
 | How many full-time equivalent employees does the bank have?  | Quantitative  | Numeric Input    | Integer         | 5,847           |
 | What is the employee turnover rate?                          | Quantitative  | Percentage Input | Percentage      | 12.5%           |
 | What is the average tenure of employees?                     | Quantitative  | Numeric Input    | Decimal (years) | 7.8             |
+
+---
+
+
+
+# SASB Insurance (IN) - Complete AI-Driven Sustainability Reporting Platform Questions
+
+## IN-240a: Transparent Information & Fair Advice for Customers
+
+| Question                                                     | Question Type | Input Type               | Data Type      | Example Answer                                               |
+| ------------------------------------------------------------ | ------------- | ------------------------ | -------------- | ------------------------------------------------------------ |
+| What is the total amount of monetary losses from legal proceedings associated with fraud, insider trading, anti-trust, anti-competitive behavior, market manipulation, malpractice, or other related financial industry laws or regulations? | Quantitative  | Numeric Input            | Currency (USD) | $45,250,000                                                  |
+| Please provide a breakdown of monetary losses by legal proceeding category (fraud, insider trading, anti-trust, etc.) | Quantitative  | Multi-category Breakdown | Currency Array | Fraud: $25M, Anti-competitive: $15M, Malpractice: $5.25M     |
+| What is the number of legal proceedings initiated during the reporting period? | Quantitative  | Numeric Input            | Integer        | 23                                                           |
+| What is the average settlement amount per legal proceeding?  | Calculated    | Auto-calculated          | Currency (USD) | $1,967,391                                                   |
+| How many legal proceedings remain unresolved at the end of the reporting period? | Quantitative  | Numeric Input            | Integer        | 7                                                            |
+| What is the total amount of provisions/reserves set aside for potential legal settlements? | Quantitative  | Numeric Input            | Currency (USD) | $125,000,000                                                 |
+| Describe your approach to informing customers about products, including key risks, fees, and terms | Qualitative   | Long Text                | Narrative      | "We employ a three-tier disclosure approach: (1) Pre-sale educational materials with interactive risk calculators, (2) Standardized product summaries using plain language principles, (3) Post-sale confirmation documents with cooling-off periods. All materials undergo readability testing at 8th-grade level." |
+| What percentage of customer complaints relate to insufficient product information or misleading advice? | Quantitative  | Percentage Input         | Percentage     | 12.5%                                                        |
+| How many customer complaints were received during the reporting period? | Quantitative  | Numeric Input            | Integer        | 15,847                                                       |
+| What is the average time to resolve customer complaints?     | Quantitative  | Numeric Input            | Days           | 21                                                           |
+| What percentage of complaints were resolved in favor of the customer? | Quantitative  | Percentage Input         | Percentage     | 34.2%                                                        |
+| Do you conduct regular customer satisfaction surveys regarding product transparency? | Binary        | Yes/No                   | Boolean        | Yes                                                          |
+| What is your customer satisfaction score regarding product transparency? | Quantitative  | Numeric Input            | Rating (1-10)  | 7.8                                                          |
+| Describe your sales training programs focused on customer transparency | Qualitative   | Long Text                | Narrative      | "Annual 40-hour certification program covering product knowledge, ethical sales practices, and regulatory compliance. Quarterly refresher training on new products and regulatory changes." |
+| What percentage of sales staff have completed transparency training in the current period? | Quantitative  | Percentage Input         | Percentage     | 98.7%                                                        |
+| How do you monitor and audit sales practices for customer transparency? | Qualitative   | Long Text                | Narrative      | "Monthly call monitoring with standardized scorecards, quarterly mystery shopping programs, and annual compliance audits by third-party firms." |
+| What is your first-call resolution rate for customer inquiries about product features? | Quantitative  | Percentage Input         | Percentage     | 76.3%                                                        |
+| How many regulatory violations related to customer information or sales practices occurred? | Quantitative  | Numeric Input            | Integer        | 2                                                            |
+| What was the total amount of regulatory fines related to customer information practices? | Quantitative  | Numeric Input            | Currency (USD) | $850,000                                                     |
+
+## IN-410a: Incorporation of Environmental, Social, and Governance Factors in Investment Management
+
+| Question                                                     | Question Type   | Input Type               | Data Type      | Example Answer                                               |
+| ------------------------------------------------------------ | --------------- | ------------------------ | -------------- | ------------------------------------------------------------ |
+| What is the total value of invested assets?                  | Quantitative    | Numeric Input            | Currency (USD) | $847,500,000,000                                             |
+| Please provide a breakdown of invested assets by industry sector | Quantitative    | Multi-category Breakdown | Currency Array | Technology: $127B, Healthcare: $95B, Financials: $89B, Energy: $67B, Utilities: $54B, Other: $415.5B |
+| What percentage of invested assets are in fossil fuel companies? | Quantitative    | Percentage Input         | Percentage     | 8.2%                                                         |
+| What percentage of invested assets are in renewable energy companies? | Quantitative    | Percentage Input         | Percentage     | 4.7%                                                         |
+| Please provide a breakdown of invested assets by asset class | Quantitative    | Multi-category Breakdown | Currency Array | Corporate Bonds: $423B, Government Bonds: $212B, Equities: $169B, Real Estate: $42B, Alternatives: $1.5B |
+| What is the total value of green bonds in your portfolio?    | Quantitative    | Numeric Input            | Currency (USD) | $23,400,000,000                                              |
+| What percentage of your portfolio consists of ESG-labeled investments? | Quantitative    | Percentage Input         | Percentage     | 15.8%                                                        |
+| Describe your approach to incorporating environmental factors in investment decisions | Qualitative     | Long Text                | Narrative      | "We employ a proprietary ESG scoring methodology that integrates climate risk assessments, environmental impact metrics, and regulatory compliance factors. All investment decisions above $10M threshold require ESG committee approval." |
+| Describe your approach to incorporating social factors in investment decisions | Qualitative     | Long Text                | Narrative      | "Social factor analysis includes labor practices assessment, community impact evaluation, and stakeholder engagement quality. We maintain exclusion lists for companies with poor human rights records." |
+| Describe your approach to incorporating governance factors in investment decisions | Qualitative     | Long Text                | Narrative      | "Governance evaluation covers board composition, executive compensation alignment, transparency practices, and shareholder rights. We engage actively with portfolio companies on governance improvements." |
+| Do you use external ESG ratings in your investment process?  | Binary          | Yes/No                   | Boolean        | Yes                                                          |
+| Which ESG rating providers do you use?                       | Multiple Choice | Checkbox Selection       | String Array   | ["MSCI ESG", "Sustainalytics", "S&P Global ESG", "ISS ESG"]  |
+| What percentage of your portfolio has been ESG-screened?     | Quantitative    | Percentage Input         | Percentage     | 87.3%                                                        |
+| How many companies have you excluded from investment due to ESG concerns? | Quantitative    | Numeric Input            | Integer        | 342                                                          |
+| What is the average ESG score of your equity portfolio?      | Quantitative    | Numeric Input            | Rating (1-10)  | 6.7                                                          |
+| How many shareholder resolutions did you vote on related to ESG issues? | Quantitative    | Numeric Input            | Integer        | 1,247                                                        |
+| What percentage of ESG-related shareholder resolutions did you support? | Quantitative    | Percentage Input         | Percentage     | 73.2%                                                        |
+| Do you engage directly with companies on ESG issues?         | Binary          | Yes/No                   | Boolean        | Yes                                                          |
+| How many company engagements on ESG issues did you conduct?  | Quantitative    | Numeric Input            | Integer        | 156                                                          |
+| What percentage of your real estate investments are in green-certified buildings? | Quantitative    | Percentage Input         | Percentage     | 42.8%                                                        |
+| Do you measure the carbon footprint of your investment portfolio? | Binary          | Yes/No                   | Boolean        | Yes                                                          |
+| What is the weighted average carbon intensity of your portfolio (tCO2e/$M invested)? | Quantitative    | Numeric Input            | Ratio          | 147.3                                                        |
+| What is your target for portfolio carbon intensity reduction? | Quantitative    | Percentage Input         | Percentage     | 25%                                                          |
+| By what year do you target achieving this carbon intensity reduction? | Quantitative    | Year Input               | Year           | 2030                                                         |
+| Do you have a climate-related investment policy?             | Binary          | Yes/No                   | Boolean        | Yes                                                          |
+| What percentage of your investment team has received ESG training? | Quantitative    | Percentage Input         | Percentage     | 94.1%                                                        |
+
+## IN-410b: Policies Designed to Incentivize Responsible Behavior
+
+| Question                                                     | Question Type   | Input Type               | Data Type      | Example Answer                                               |
+| ------------------------------------------------------------ | --------------- | ------------------------ | -------------- | ------------------------------------------------------------ |
+| What is the net premiums written related to energy efficiency and low carbon technology? | Quantitative    | Numeric Input            | Currency (USD) | $2,847,500,000                                               |
+| Please provide a breakdown of energy efficiency premiums by technology type | Quantitative    | Multi-category Breakdown | Currency Array | Solar: $1.2B, Wind: $890M, Energy Storage: $456M, LED/Efficiency: $301.5M |
+| What percentage of your total premiums written are related to sustainable technologies? | Quantitative    | Percentage Input         | Percentage     | 11.3%                                                        |
+| What is the growth rate of sustainable technology premiums year-over-year? | Quantitative    | Percentage Input         | Percentage     | 23.7%                                                        |
+| How many renewable energy projects have you insured?         | Quantitative    | Numeric Input            | Integer        | 1,847                                                        |
+| What is the total capacity (MW) of renewable energy projects you have insured? | Quantitative    | Numeric Input            | Megawatts      | 15,420                                                       |
+| Do you offer usage-based insurance products?                 | Binary          | Yes/No                   | Boolean        | Yes                                                          |
+| What percentage of your auto insurance policies are usage-based? | Quantitative    | Percentage Input         | Percentage     | 18.4%                                                        |
+| What is the average premium discount for usage-based insurance customers? | Quantitative    | Percentage Input         | Percentage     | 12.8%                                                        |
+| How many telematics devices are currently active in your network? | Quantitative    | Numeric Input            | Integer        | 2,847,000                                                    |
+| Describe your products that incentivize health and wellness behaviors | Qualitative     | Long Text                | Narrative      | "Our wellness platform offers premium discounts up to 20% for completing health assessments, participating in fitness programs, and achieving biometric targets. We partner with fitness tracker manufacturers and provide free health screenings." |
+| What percentage of health insurance customers participate in wellness programs? | Quantitative    | Percentage Input         | Percentage     | 47.2%                                                        |
+| What is the average medical cost savings per customer in wellness programs? | Quantitative    | Numeric Input            | Currency (USD) | $1,247                                                       |
+| Do you offer discounts for environmentally friendly behaviors? | Binary          | Yes/No                   | Boolean        | Yes                                                          |
+| What is the maximum discount available for environmentally friendly behaviors? | Quantitative    | Percentage Input         | Percentage     | 15%                                                          |
+| Describe your products that incentivize safety behaviors     | Qualitative     | Long Text                | Narrative      | "Our safety program includes defensive driving course discounts, home security system incentives, and workplace safety training rewards. We offer premium reductions for completing safety certifications and maintaining claim-free records." |
+| What percentage of customers have achieved safety-related discounts? | Quantitative    | Percentage Input         | Percentage     | 31.7%                                                        |
+| Do you offer parametric insurance products?                  | Binary          | Yes/No                   | Boolean        | Yes                                                          |
+| What is the total value of parametric insurance products you offer? | Quantitative    | Numeric Input            | Currency (USD) | $847,000,000                                                 |
+| How many parametric insurance policies are currently active? | Quantitative    | Numeric Input            | Integer        | 1,247                                                        |
+| What types of parametric triggers do you use?                | Multiple Choice | Checkbox Selection       | String Array   | ["Temperature", "Rainfall", "Wind Speed", "Earthquake Magnitude", "Commodity Prices"] |
+| Do you offer microinsurance products?                        | Binary          | Yes/No                   | Boolean        | Yes                                                          |
+| What is the total value of microinsurance premiums written?  | Quantitative    | Numeric Input            | Currency (USD) | $23,400,000                                                  |
+| How many microinsurance policies are currently active?       | Quantitative    | Numeric Input            | Integer        | 234,000                                                      |
+| What is the average premium for microinsurance products?     | Quantitative    | Numeric Input            | Currency (USD) | $47                                                          |
+| Do you offer cyber insurance products?                       | Binary          | Yes/No                   | Boolean        | Yes                                                          |
+| What percentage of your commercial customers have cyber insurance? | Quantitative    | Percentage Input         | Percentage     | 34.2%                                                        |
+| What is the total value of cyber insurance premiums written? | Quantitative    | Numeric Input            | Currency (USD) | $1,247,000,000                                               |
+
+## IN-450a: Environmental Risk Exposure
+
+| Question                                                     | Question Type   | Input Type               | Data Type       | Example Answer                                               |
+| ------------------------------------------------------------ | --------------- | ------------------------ | --------------- | ------------------------------------------------------------ |
+| What is the Probable Maximum Loss (PML) from weather-related natural catastrophes? | Quantitative    | Numeric Input            | Currency (USD)  | $12,400,000,000                                              |
+| Please provide PML breakdown by catastrophe type             | Quantitative    | Multi-category Breakdown | Currency Array  | Hurricane: $6.2B, Wildfire: $2.8B, Flood: $1.9B, Earthquake: $1.5B |
+| What is your PML as a percentage of total capital?           | Quantitative    | Percentage Input         | Percentage      | 18.7%                                                        |
+| What is the 1-in-100 year loss estimate for your portfolio?  | Quantitative    | Numeric Input            | Currency (USD)  | $8,470,000,000                                               |
+| What is the 1-in-250 year loss estimate for your portfolio?  | Quantitative    | Numeric Input            | Currency (USD)  | $15,600,000,000                                              |
+| What was the total amount of monetary losses from natural catastrophes in the reporting period? | Quantitative    | Numeric Input            | Currency (USD)  | $2,847,000,000                                               |
+| Please provide a breakdown of natural catastrophe losses by event type | Quantitative    | Multi-category Breakdown | Currency Array  | Hurricane: $1.2B, Wildfire: $890M, Flood: $456M, Tornado: $301M |
+| What was the largest single natural catastrophe loss in the reporting period? | Quantitative    | Numeric Input            | Currency (USD)  | $847,000,000                                                 |
+| Which natural catastrophe caused the largest single loss?    | Qualitative     | Short Text               | String          | Hurricane Ian                                                |
+| How many natural catastrophe events triggered claims in the reporting period? | Quantitative    | Numeric Input            | Integer         | 23                                                           |
+| What is your natural catastrophe reinsurance coverage limit? | Quantitative    | Numeric Input            | Currency (USD)  | $25,000,000,000                                              |
+| What percentage of your natural catastrophe risk is reinsured? | Quantitative    | Percentage Input         | Percentage      | 67.3%                                                        |
+| What is your retention (deductible) for natural catastrophe reinsurance? | Quantitative    | Numeric Input            | Currency (USD)  | $500,000,000                                                 |
+| Describe your approach to incorporating environmental risks into the underwriting process | Qualitative     | Long Text                | Narrative       | "We utilize advanced catastrophe modeling from RMS, AIR, and Karen Clark & Company, integrating climate change projections and real-time weather data. Our underwriters receive specialized training on emerging climate risks and use geospatial analytics for risk assessment." |
+| Which catastrophe modeling vendors do you use?               | Multiple Choice | Checkbox Selection       | String Array    | ["RMS", "AIR Worldwide", "Karen Clark & Company", "CoreLogic"] |
+| Do you use climate change projections in your risk models?   | Binary          | Yes/No                   | Boolean         | Yes                                                          |
+| What time horizon do you use for climate change projections? | Quantitative    | Numeric Input            | Years           | 30                                                           |
+| Which climate scenarios do you model?                        | Multiple Choice | Checkbox Selection       | String Array    | ["RCP 2.6", "RCP 4.5", "RCP 8.5", "SSP1-2.6", "SSP5-8.5"]    |
+| Do you conduct climate stress testing?                       | Binary          | Yes/No                   | Boolean         | Yes                                                          |
+| What is your stress test scenario for temperature increase?  | Quantitative    | Numeric Input            | Degrees Celsius | 3.0                                                          |
+| What is the projected impact of climate stress scenarios on your loss ratios? | Quantitative    | Percentage Input         | Percentage      | 8.4%                                                         |
+| Do you adjust your pricing based on climate risk projections? | Binary          | Yes/No                   | Boolean         | Yes                                                          |
+| What percentage of your property portfolio is in high-risk coastal areas? | Quantitative    | Percentage Input         | Percentage      | 23.7%                                                        |
+| What percentage of your property portfolio is in wildfire-prone areas? | Quantitative    | Percentage Input         | Percentage      | 15.8%                                                        |
+| What percentage of your property portfolio is in flood-prone areas? | Quantitative    | Percentage Input         | Percentage      | 31.2%                                                        |
+| Do you use satellite imagery for risk assessment?            | Binary          | Yes/No                   | Boolean         | Yes                                                          |
+| Do you use IoT sensors for risk monitoring?                  | Binary          | Yes/No                   | Boolean         | Yes                                                          |
+| How many IoT sensors are deployed across your insured properties? | Quantitative    | Numeric Input            | Integer         | 125,000                                                      |
+| What types of environmental data do you collect from IoT sensors? | Multiple Choice | Checkbox Selection       | String Array    | ["Temperature", "Humidity", "Air Quality", "Water Level", "Wind Speed"] |
+| Do you offer risk mitigation services to policyholders?      | Binary          | Yes/No                   | Boolean         | Yes                                                          |
+| What percentage of policyholders have implemented risk mitigation measures? | Quantitative    | Percentage Input         | Percentage      | 42.1%                                                        |
+| What is the average premium discount for risk mitigation measures? | Quantitative    | Percentage Input         | Percentage      | 7.5%                                                         |
+
+## IN-550a: Systemic Risk Management
+
+| Question                                                     | Question Type   | Input Type               | Data Type      | Example Answer                                               |
+| ------------------------------------------------------------ | --------------- | ------------------------ | -------------- | ------------------------------------------------------------ |
+| What is the total fair value of derivative instruments held? | Quantitative    | Numeric Input            | Currency (USD) | $45,670,000,000                                              |
+| Please provide a breakdown of derivative exposure by instrument type | Quantitative    | Multi-category Breakdown | Currency Array | Interest Rate Swaps: $23.4B, Credit Default Swaps: $12.8B, Currency Forwards: $6.7B, Equity Options: $2.77B |
+| What is the notional amount of derivative contracts?         | Quantitative    | Numeric Input            | Currency (USD) | $234,500,000,000                                             |
+| What percentage of derivatives are used for hedging vs. speculation? | Quantitative    | Percentage Input         | Percentage     | Hedging: 78.4%, Speculation: 21.6%                           |
+| What is the net derivative exposure after netting agreements? | Quantitative    | Numeric Input            | Currency (USD) | $12,340,000,000                                              |
+| What is the total fair value of securities lending collateral? | Quantitative    | Numeric Input            | Currency (USD) | $23,400,000,000                                              |
+| What percentage of your investment portfolio is involved in securities lending? | Quantitative    | Percentage Input         | Percentage     | 34.7%                                                        |
+| What is the average duration of securities lending transactions? | Quantitative    | Numeric Input            | Days           | 45                                                           |
+| What types of collateral do you accept for securities lending? | Multiple Choice | Checkbox Selection       | String Array   | ["Cash", "Government Bonds", "Corporate Bonds", "Equities"]  |
+| What is your securities lending revenue as a percentage of investment income? | Quantitative    | Percentage Input         | Percentage     | 2.3%                                                         |
+| Do you have a written derivatives policy?                    | Binary          | Yes/No                   | Boolean        | Yes                                                          |
+| Who approves derivative transactions above specified thresholds? | Multiple Choice | Single Selection         | String         | Board Risk Committee                                         |
+| What is the threshold requiring board approval for derivative transactions? | Quantitative    | Numeric Input            | Currency (USD) | $500,000,000                                                 |
+| How frequently do you mark-to-market your derivative positions? | Multiple Choice | Single Selection         | String         | Daily                                                        |
+| What is your maximum allowable derivative exposure as a percentage of capital? | Quantitative    | Percentage Input         | Percentage     | 25%                                                          |
+| Do you use Value-at-Risk (VaR) models for derivative risk management? | Binary          | Yes/No                   | Boolean        | Yes                                                          |
+| What is your current 1-day VaR for derivative positions?     | Quantitative    | Numeric Input            | Currency (USD) | $125,000,000                                                 |
+| What confidence level do you use for VaR calculations?       | Quantitative    | Percentage Input         | Percentage     | 99%                                                          |
+| Describe your approach to managing capital adequacy related to insurance underwriting risks | Qualitative     | Long Text                | Narrative      | "We maintain capital levels 150% above regulatory minimums, utilize dynamic capital allocation models, and conduct quarterly stress testing across all major risk categories. Our Economic Capital model incorporates correlation effects and tail risk scenarios." |
+| Describe your approach to managing liquidity related to insurance underwriting risks | Qualitative     | Long Text                | Narrative      | "We maintain 90-day liquid asset coverage for expected claims, diversify funding sources, and maintain committed credit facilities. Our liquidity stress testing models extreme claim scenarios and considers asset-liability duration matching." |
+| What is your current risk-based capital ratio?               | Quantitative    | Percentage Input         | Percentage     | 347%                                                         |
+| What is your target risk-based capital ratio?                | Quantitative    | Percentage Input         | Percentage     | 300%                                                         |
+| What is your current liquidity coverage ratio?               | Quantitative    | Percentage Input         | Percentage     | 178%                                                         |
+| What is your minimum liquidity coverage ratio requirement?   | Quantitative    | Percentage Input         | Percentage     | 125%                                                         |
+| How often do you conduct comprehensive stress testing?       | Multiple Choice | Single Selection         | String         | Quarterly                                                    |
+| What is your largest single counterparty exposure?           | Quantitative    | Numeric Input            | Currency (USD) | $2,340,000,000                                               |
+| What percentage of your assets are with your largest counterparty? | Quantitative    | Percentage Input         | Percentage     | 3.8%                                                         |
+| Do you have exposure limits for individual counterparties?   | Binary          | Yes/No                   | Boolean        | Yes                                                          |
+| What is your maximum exposure limit for any single counterparty? | Quantitative    | Percentage Input         | Percentage     | 5%                                                           |
+| How many counterparties represent more than 1% of your total assets? | Quantitative    | Numeric Input            | Integer        | 23                                                           |
+| Do you conduct counterparty credit risk assessments?         | Binary          | Yes/No                   | Boolean        | Yes                                                          |
+| How frequently do you update counterparty credit assessments? | Multiple Choice | Single Selection         | String         | Quarterly                                                    |
+| What is your exposure to systemically important financial institutions? | Quantitative    | Numeric Input            | Currency (USD) | $23,400,000,000                                              |
+| What percentage of your assets are with systemically important financial institutions? | Quantitative    | Percentage Input         | Percentage     | 38.2%                                                        |
+
+## Activity Metrics
+
+| Question                                                     | Question Type | Input Type               | Data Type        | Example Answer                                               |
+| ------------------------------------------------------------ | ------------- | ------------------------ | ---------------- | ------------------------------------------------------------ |
+| What is the total number of policies in force?               | Quantitative  | Numeric Input            | Integer          | 15,847,000                                                   |
+| Please provide a breakdown of policies in force by segment   | Quantitative  | Multi-category Breakdown | Integer Array    | Life: 8.2M, Property: 4.1M, Auto: 2.8M, Health: 0.75M        |
+| What is the total net premiums written?                      | Quantitative  | Numeric Input            | Currency (USD)   | $67,400,000,000                                              |
+| Please provide a breakdown of net premiums written by segment | Quantitative  | Multi-category Breakdown | Currency Array   | Life: $28.4B, Property: $19.2B, Auto: $13.8B, Health: $6.0B  |
+| What is the year-over-year growth rate in policies in force? | Quantitative  | Percentage Input         | Percentage       | 7.3%                                                         |
+| What is the year-over-year growth rate in net premiums written? | Quantitative  | Percentage Input         | Percentage       | 9.1%                                                         |
+| What is your market share in each segment?                   | Quantitative  | Multi-category Breakdown | Percentage Array | Life: 12.3%, Property: 8.9%, Auto: 15.2%, Health: 4.7%       |
+| What is your average premium per policy by segment?          | Calculated    | Auto-calculated          | Currency Array   | Life: $3,463, Property: $4,683, Auto: $4,929, Health: $8,000 |
+| What is your policy retention rate by segment?               | Quantitative  | Multi-category Breakdown | Percentage Array | Life: 94.2%, Property: 87.1%, Auto: 89.7%, Health: 91.3%     |
+| What is your new business growth rate by segment?            | Quantitative  | Multi-category Breakdown | Percentage Array | Life: 5.8%, Property: 12.4%, Auto: 8.9%, Health: 15.2%       |
+| What is your combined ratio by segment?                      | Quantitative  | Multi-category Breakdown | Ratio Array      | Property: 96.2%, Auto: 101.3%, Health: 87.4%                 |
+| What is your loss ratio by segment?                          | Quantitative  | Multi-category Breakdown | Percentage Array | Property: 67.3%, Auto: 72.1%, Health: 78.9%                  |
+| What is your expense ratio by segment?                       | Quantitative  | Multi-category Breakdown | Percentage Array | Property: 28.9%, Auto: 29.2%, Health: 8.5%                   |
+| What is your total number of employees?                      | Quantitative  | Numeric Input            | Integer          | 45,670                                                       |
+| What is your number of agents/brokers?                       | Quantitative  | Numeric Input            | Integer          | 125,000                                                      |
+| What is your total number of claims processed in the reporting period? | Quantitative  | Numeric Input            | Integer          | 2,847,000                                                    |
+| What is your average claim processing time?                  | Quantitative  | Numeric Input            | Days             | 12                                                           |
+| What is your customer satisfaction score?                    | Quantitative  | Numeric Input            | Rating (1-10)    | 8.2                                                          |

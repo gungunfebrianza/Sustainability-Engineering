@@ -57,8 +57,8 @@ Projects seeking to complete re
   - **Oversupply of Low-Quality Credits**: Legacy credits from old projects flood voluntary markets, suppressing prices ($1–5/ton for many nature-based credits vs. $100+/ton in EU ETS).
   - **Weak Demand**: Corporate buyers are retreating due to credibility concerns and fears of "greenwashing" accusations. Compliance market demand is regionally uneven.
 - **Market Liquidity & Price Volatility** 
-  - **Oversupply of Low-Quality Credits**: Legacy credits from old projects flood voluntary markets, suppressing prices ($1–5/ton for many nature-based credits vs. $100+/ton in EU ETS).
-  - **Weak Demand**: Corporate buyers are retreating due to credibility concerns and fears of "greenwashing" accusations. Compliance market demand is regionally uneven.
+  - **Thin Trading**: Many compliance markets (e.g., Mexico, Colombia) have low liquidity, leading to price instability.
+  - **Speculation**: Financial actors can exacerbate price swings (e.g., EU ETS prices dropped 40% in 2023 due to recession fears).
 - **Equity & Justice Concerns** 
   - **Concentrated Benefits**: Wealthy corporations/nations often offset emissions via projects in developing countries, raising ethical questions about burden-sharing.
   - **Community Impacts**: Some projects (e.g., large afforestation) displace local communities or restrict resource access without fair compensation.
