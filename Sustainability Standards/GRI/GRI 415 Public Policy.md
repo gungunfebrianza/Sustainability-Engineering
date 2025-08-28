@@ -55,7 +55,7 @@ These standards provide a comprehensive framework for sustainability reporting a
 
 ------
 
-# GRI 415: Public Policy - Complete AI-Driven Questionnaire
+# GRI 415: Public Policy  
 
 ## Management Approach and Governance
 

@@ -1,0 +1,55 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="GRqD9uXKQO6PxAvWfidw">
+    <mxGraphModel dx="2276" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TXFBFMn7h-CQEIeFShIh-1" value="Emissions Factor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TXFBFMn7h-CQEIeFShIh-2" value="fuel_types" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TXFBFMn7h-CQEIeFShIh-3" value="factor_value" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="330" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TXFBFMn7h-CQEIeFShIh-4" value="factor_unit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="390" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TXFBFMn7h-CQEIeFShIh-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="270" width="70" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TXFBFMn7h-CQEIeFShIh-6" value="Core Factor Information" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="340" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TXFBFMn7h-CQEIeFShIh-7" value="factor_source" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="460" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TXFBFMn7h-CQEIeFShIh-8" value="ghg_coverage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TXFBFMn7h-CQEIeFShIh-9" value="gwp_ar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="580" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TXFBFMn7h-CQEIeFShIh-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="460" width="70" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TXFBFMn7h-CQEIeFShIh-11" value="Data Source &amp;amp; Methodology" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="530" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TXFBFMn7h-CQEIeFShIh-13" value="scope_category" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="650" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TXFBFMn7h-CQEIeFShIh-14" value="last_updated" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="710" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TXFBFMn7h-CQEIeFShIh-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry y="650" width="70" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TXFBFMn7h-CQEIeFShIh-17" value="Classification &amp;amp; Management" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="690" width="350" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

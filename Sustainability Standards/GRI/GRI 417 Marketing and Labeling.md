@@ -55,7 +55,7 @@ These standards provide a comprehensive framework for sustainability reporting a
 
 ------
 
-# GRI 417: Marketing and Labeling - Complete Question Set for AI-Driven Platform
+# GRI 417: Marketing and Labeling 
 
 ## Disclosure 417-1: Requirements for Product and Service Information and Labeling
 

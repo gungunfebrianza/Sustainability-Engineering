@@ -55,7 +55,9 @@ These standards provide a comprehensive framework for sustainability reporting a
 
 ------
 
-# Comprehensive GRI Questions for AI-Driven Sustainability Reporting Platform
+# GRI 419 - Socioeconomic Compliance
+
+
 
 ## Foundation and General Disclosures
 

@@ -911,3 +911,156 @@ This comprehensive framework enables the financial services sector to effectivel
 | What is your total number of claims processed in the reporting period? | Quantitative  | Numeric Input            | Integer          | 2,847,000                                                    |
 | What is your average claim processing time?                  | Quantitative  | Numeric Input            | Days             | 12                                                           |
 | What is your customer satisfaction score?                    | Quantitative  | Numeric Input            | Rating (1-10)    | 8.2                                                          |
+
+
+
+
+
+# SASB Real Estate (RE) 
+
+
+
+## Energy Management (RE-410a)
+
+| Question                                                     | Question Type | Input Type              | Data Type            | Example Answer                                               |
+| ------------------------------------------------------------ | ------------- | ----------------------- | -------------------- | ------------------------------------------------------------ |
+| What is the total floor area of your real estate portfolio?  | Quantitative  | Numeric Input           | Integer (sq ft)      | 15,450,000                                                   |
+| What percentage of your total floor area has energy consumption data coverage? | Quantitative  | Percentage Input        | Decimal (%)          | 87.5                                                         |
+| What is the total energy consumed by grid electricity across your portfolio? | Quantitative  | Numeric Input           | Decimal (MWh)        | 125,430.5                                                    |
+| What percentage of your grid electricity consumption comes from renewable sources? | Quantitative  | Percentage Input        | Decimal (%)          | 42.3                                                         |
+| What is your same-store operational energy consumption intensity? | Quantitative  | Numeric Input           | Decimal (kBtu/sq ft) | 68.2                                                         |
+| How do you define "same-store" properties for energy intensity calculations? | Qualitative   | Text Area               | String               | Properties owned and operated for minimum 24 consecutive months with no major renovations |
+| What is the year-over-year change in same-store energy intensity? | Quantitative  | Percentage Input        | Decimal (%)          | -3.2                                                         |
+| Which energy management systems do you employ across your portfolio? | Qualitative   | Multi-Select Checkboxes | Array                | ["Building Management Systems", "Smart Meters", "Energy Analytics Software"] |
+| What renewable energy procurement strategies do you use?     | Qualitative   | Multi-Select Checkboxes | Array                | ["On-site Solar", "Virtual Power Purchase Agreements", "Renewable Energy Certificates"] |
+| What is your total on-site renewable energy generation capacity? | Quantitative  | Numeric Input           | Decimal (MW)         | 12.5                                                         |
+| What percentage of your portfolio has achieved ENERGY STAR certification? | Quantitative  | Percentage Input        | Decimal (%)          | 65.0                                                         |
+| What is your average ENERGY STAR score across certified properties? | Quantitative  | Numeric Input           | Integer (1-100)      | 78                                                           |
+| How do you track and verify energy consumption data?         | Qualitative   | Multi-Select Checkboxes | Array                | ["Utility Bills", "Smart Meters", "Third-party Verification", "Property Management Software"] |
+| What energy efficiency improvement projects have you completed in the last year? | Qualitative   | Text Area               | String               | LED lighting upgrades, HVAC system optimization, building envelope improvements |
+| What is your annual capital expenditure on energy efficiency improvements? | Quantitative  | Numeric Input           | Decimal (USD)        | 2,500,000                                                    |
+| What energy efficiency targets have you set for your portfolio? | Qualitative   | Text Area               | String               | Reduce energy intensity by 20% by 2030, achieve carbon neutrality by 2035 |
+
+
+
+## Water Management (RE-410b)
+
+| Question                                                     | Question Type | Input Type              | Data Type               | Example Answer                                               |
+| ------------------------------------------------------------ | ------------- | ----------------------- | ----------------------- | ------------------------------------------------------------ |
+| What percentage of your total floor area has water consumption data coverage? | Quantitative  | Percentage Input        | Decimal (%)             | 78.3                                                         |
+| What is your same-store operational water consumption intensity? | Quantitative  | Numeric Input           | Decimal (gallons/sq ft) | 18.5                                                         |
+| What is the year-over-year change in same-store water consumption intensity? | Quantitative  | Percentage Input        | Decimal (%)             | -5.1                                                         |
+| Which water management technologies do you employ?           | Qualitative   | Multi-Select Checkboxes | Array                   | ["Smart Irrigation", "Low-flow Fixtures", "Greywater Systems", "Rainwater Harvesting"] |
+| What percentage of your portfolio is located in water-stressed regions? | Quantitative  | Percentage Input        | Decimal (%)             | 35.2                                                         |
+| How do you assess water stress risk across your portfolio?   | Qualitative   | Multi-Select Checkboxes | Array                   | ["WRI Aqueduct Tool", "CDP Water Security", "Local Water Authority Data"] |
+| What water conservation measures have you implemented?       | Qualitative   | Text Area               | String                  | Drought-resistant landscaping, leak detection systems, water-efficient appliances |
+| What is your annual water consumption across the portfolio?  | Quantitative  | Numeric Input           | Decimal (gallons)       | 185,000,000                                                  |
+| What percentage of your water consumption comes from recycled sources? | Quantitative  | Percentage Input        | Decimal (%)             | 8.7                                                          |
+| Do you have water quality monitoring programs in place?      | Qualitative   | Radio Button            | Boolean                 | Yes                                                          |
+| What water-related risks have you identified for your portfolio? | Qualitative   | Multi-Select Checkboxes | Array                   | ["Drought Risk", "Flood Risk", "Regulatory Changes", "Supply Disruption"] |
+| What water management targets have you established?          | Qualitative   | Text Area               | String                  | Reduce water intensity by 15% by 2028, achieve 100% data coverage by 2025 |
+| How do you engage tenants in water conservation efforts?     | Qualitative   | Text Area               | String                  | Educational programs, submetering, green lease clauses, conservation incentives |
+| What is your annual expenditure on water efficiency improvements? | Quantitative  | Numeric Input           | Decimal (USD)           | 750,000                                                      |
+| Do you participate in water stewardship initiatives?         | Qualitative   | Multi-Select Checkboxes | Array                   | ["CEO Water Mandate", "Alliance for Water Stewardship", "Local Watershed Partnerships"] |
+
+
+
+## Management of Tenant Sustainability Impacts (RE-410c)
+
+| Question                                                     | Question Type | Input Type              | Data Type   | Example Answer                                               |
+| ------------------------------------------------------------ | ------------- | ----------------------- | ----------- | ------------------------------------------------------------ |
+| What percentage of your eligible portfolio is certified to third-party sustainability standards? | Quantitative  | Percentage Input        | Decimal (%) | 72.8                                                         |
+| Which third-party sustainability certifications do you pursue? | Qualitative   | Multi-Select Checkboxes | Array       | ["LEED", "ENERGY STAR", "BREEAM", "WELL", "Fitwel"]          |
+| What is the distribution of certification levels across your certified portfolio? | Quantitative  | Structured Input        | Object      | {"LEED Certified": 25, "LEED Silver": 45, "LEED Gold": 20, "LEED Platinum": 10} |
+| How do you engage tenants in sustainability initiatives?     | Qualitative   | Multi-Select Checkboxes | Array       | ["Green Lease Clauses", "Tenant Sustainability Guidelines", "Educational Programs", "Incentive Programs"] |
+| What percentage of your leases include green lease clauses?  | Quantitative  | Percentage Input        | Decimal (%) | 85.0                                                         |
+| What types of green lease provisions do you include?         | Qualitative   | Multi-Select Checkboxes | Array       | ["Energy Efficiency Requirements", "Waste Reduction Targets", "Water Conservation Measures", "Sustainable Transportation"] |
+| Do you provide tenant sustainability performance reporting?  | Qualitative   | Radio Button            | Boolean     | Yes                                                          |
+| How frequently do you report tenant sustainability performance? | Qualitative   | Dropdown                | String      | Quarterly                                                    |
+| What sustainability metrics do you track for tenants?        | Qualitative   | Multi-Select Checkboxes | Array       | ["Energy Consumption", "Water Usage", "Waste Generation", "Recycling Rates"] |
+| Do you offer tenant sustainability training programs?        | Qualitative   | Radio Button            | Boolean     | Yes                                                          |
+| What sustainability incentives do you provide to tenants?    | Qualitative   | Multi-Select Checkboxes | Array       | ["Rent Discounts", "Improvement Allowances", "Recognition Programs", "Shared Savings"] |
+| How do you measure tenant satisfaction with sustainability initiatives? | Qualitative   | Multi-Select Checkboxes | Array       | ["Annual Surveys", "Regular Meetings", "Feedback Portals", "Focus Groups"] |
+| What percentage of tenants actively participate in sustainability programs? | Quantitative  | Percentage Input        | Decimal (%) | 68.5                                                         |
+| Do you have tenant sustainability committees or working groups? | Qualitative   | Radio Button            | Boolean     | Yes                                                          |
+| What sustainability improvement targets do you set for tenants? | Qualitative   | Text Area               | String      | 10% reduction in energy consumption, 90% waste diversion from landfill |
+| How do you support tenants in achieving sustainability goals? | Qualitative   | Text Area               | String      | Technical assistance, financial incentives, best practice sharing, technology platforms |
+
+
+
+## Climate Change Adaptation (RE-450a)
+
+| Question                                                     | Question Type | Input Type              | Data Type       | Example Answer                                               |
+| ------------------------------------------------------------ | ------------- | ----------------------- | --------------- | ------------------------------------------------------------ |
+| What is the total area of properties located in 100-year flood zones? | Quantitative  | Numeric Input           | Decimal (sq ft) | 2,150,000                                                    |
+| What percentage of your portfolio is located in 100-year flood zones? | Quantitative  | Percentage Input        | Decimal (%)     | 13.9                                                         |
+| How do you assess climate change risk exposure across your portfolio? | Qualitative   | Multi-Select Checkboxes | Array           | ["Physical Risk Assessment", "Transition Risk Analysis", "Scenario Modeling", "Third-party Risk Tools"] |
+| What climate risk assessment tools do you use?               | Qualitative   | Multi-Select Checkboxes | Array           | ["RMS Climate Change Models", "Moody's Climate Solutions", "MSCI Climate Risk Analytics", "Internal Models"] |
+| What percentage of your portfolio has undergone climate risk assessment? | Quantitative  | Percentage Input        | Decimal (%)     | 95.0                                                         |
+| Which physical climate risks have you identified for your portfolio? | Qualitative   | Multi-Select Checkboxes | Array           | ["Sea Level Rise", "Extreme Heat", "Flooding", "Wildfire", "Hurricanes", "Drought"] |
+| What is your exposure to wildfire risk?                      | Quantitative  | Percentage Input        | Decimal (%)     | 8.2                                                          |
+| What is your exposure to extreme heat risk?                  | Quantitative  | Percentage Input        | Decimal (%)     | 45.7                                                         |
+| What climate adaptation measures have you implemented?       | Qualitative   | Multi-Select Checkboxes | Array           | ["Flood Protection", "Backup Power Systems", "Enhanced Building Envelope", "Cooling System Upgrades"] |
+| What is your annual investment in climate adaptation measures? | Quantitative  | Numeric Input           | Decimal (USD)   | 3,200,000                                                    |
+| Do you have emergency preparedness plans for climate-related events? | Qualitative   | Radio Button            | Boolean         | Yes                                                          |
+| How do you monitor and update climate risk assessments?      | Qualitative   | Dropdown                | String          | Annually                                                     |
+| What climate-related insurance coverage do you maintain?     | Qualitative   | Multi-Select Checkboxes | Array           | ["Flood Insurance", "Windstorm Coverage", "Business Interruption", "Parametric Insurance"] |
+| Have you experienced climate-related property damage in the last five years? | Qualitative   | Radio Button            | Boolean         | Yes                                                          |
+| What was the total value of climate-related property damage? | Quantitative  | Numeric Input           | Decimal (USD)   | 1,250,000                                                    |
+| What transition risks have you identified?                   | Qualitative   | Multi-Select Checkboxes | Array           | ["Carbon Pricing", "Building Performance Standards", "Green Building Requirements", "Stranded Asset Risk"] |
+| How do you incorporate climate risk into investment decisions? | Qualitative   | Text Area               | String          | Climate risk screening for acquisitions, climate-adjusted valuation models, resilience requirements |
+| What climate adaptation targets have you set?                | Qualitative   | Text Area               | String          | 100% portfolio climate risk assessment by 2025, climate resilience upgrades for high-risk properties |
+
+
+
+## Activity Metrics
+
+| Question                                                     | Question Type | Input Type       | Data Type     | Example Answer                                               |
+| ------------------------------------------------------------ | ------------- | ---------------- | ------------- | ------------------------------------------------------------ |
+| What is the total number of assets in your portfolio by property subsector? | Quantitative  | Structured Input | Object        | {"Office": 125, "Retail": 87, "Industrial": 95, "Multifamily": 156, "Hotel": 34} |
+| What is the total leasable floor area by property subsector? | Quantitative  | Structured Input | Object        | {"Office": 8500000, "Retail": 2800000, "Industrial": 4200000, "Multifamily": 3500000, "Hotel": 950000} |
+| What percentage of your assets are indirectly managed by property subsector? | Quantitative  | Structured Input | Object        | {"Office": 75.0, "Retail": 65.0, "Industrial": 45.0, "Multifamily": 25.0, "Hotel": 90.0} |
+| What is the total gross asset value of your portfolio?       | Quantitative  | Numeric Input    | Decimal (USD) | 12500000000                                                  |
+| What is the average property age by subsector?               | Quantitative  | Structured Input | Object        | {"Office": 18, "Retail": 22, "Industrial": 15, "Multifamily": 12, "Hotel": 25} |
+| What is the occupancy rate by property subsector?            | Quantitative  | Structured Input | Object        | {"Office": 87.5, "Retail": 82.3, "Industrial": 95.8, "Multifamily": 94.2, "Hotel": 68.7} |
+| What is the tenant retention rate by property subsector?     | Quantitative  | Structured Input | Object        | {"Office": 78.5, "Retail": 72.3, "Industrial": 88.9, "Multifamily": 85.6, "Hotel": "N/A"} |
+| What is the average lease term by property subsector?        | Quantitative  | Structured Input | Object        | {"Office": 7.2, "Retail": 8.5, "Industrial": 5.8, "Multifamily": 1.2, "Hotel": "N/A"} |
+
+
+
+## Governance and Strategy
+
+| Question                                                     | Question Type | Input Type              | Data Type | Example Answer                                               |
+| ------------------------------------------------------------ | ------------- | ----------------------- | --------- | ------------------------------------------------------------ |
+| Do you have a formal sustainability policy or strategy?      | Qualitative   | Radio Button            | Boolean   | Yes                                                          |
+| What sustainability commitments have you made?               | Qualitative   | Multi-Select Checkboxes | Array     | ["Carbon Neutrality", "Net Zero Emissions", "Science-Based Targets", "Green Building Certifications"] |
+| What is your target year for achieving carbon neutrality?    | Quantitative  | Numeric Input           | Integer   | 2035                                                         |
+| Do you have board-level oversight of sustainability?         | Qualitative   | Radio Button            | Boolean   | Yes                                                          |
+| What sustainability expertise exists at the board level?     | Qualitative   | Multi-Select Checkboxes | Array     | ["Environmental Science", "Climate Risk", "Sustainable Finance", "ESG Investing"] |
+| How frequently does the board review sustainability performance? | Qualitative   | Dropdown                | String    | Quarterly                                                    |
+| What sustainability-related executive compensation metrics do you use? | Qualitative   | Multi-Select Checkboxes | Array     | ["Energy Intensity Reduction", "Green Building Certifications", "Tenant Satisfaction", "Climate Risk Management"] |
+| Do you publish an annual sustainability report?              | Qualitative   | Radio Button            | Boolean   | Yes                                                          |
+| What sustainability reporting frameworks do you follow?      | Qualitative   | Multi-Select Checkboxes | Array     | ["GRI", "SASB", "TCFD", "CDP", "GRESB"]                      |
+| Do you have third-party assurance for your sustainability data? | Qualitative   | Radio Button            | Boolean   | Yes                                                          |
+| What sustainability partnerships or initiatives do you participate in? | Qualitative   | Multi-Select Checkboxes | Array     | ["UN Global Compact", "Better Buildings Challenge", "RE100", "Science Based Targets"] |
+| How do you integrate sustainability into your investment strategy? | Qualitative   | Text Area               | String    | ESG screening for acquisitions, green financing preferences, sustainability-linked financing |
+| What sustainability training do you provide to employees?    | Qualitative   | Multi-Select Checkboxes | Array     | ["ESG Fundamentals", "Green Building Operations", "Climate Risk Assessment", "Sustainable Finance"] |
+| How do you measure the business value of sustainability initiatives? | Qualitative   | Multi-Select Checkboxes | Array     | ["Cost Savings", "Risk Mitigation", "Asset Value Enhancement", "Tenant Satisfaction"] |
+| What sustainability innovation initiatives do you pursue?    | Qualitative   | Text Area               | String    | Smart building technologies, renewable energy projects, circular economy practices |
+
+
+
+## Data Management and Technology
+
+| Question                                                     | Question Type | Input Type              | Data Type   | Example Answer                                               |
+| ------------------------------------------------------------ | ------------- | ----------------------- | ----------- | ------------------------------------------------------------ |
+| What technology platforms do you use for sustainability data management? | Qualitative   | Multi-Select Checkboxes | Array       | ["ENERGY STAR Portfolio Manager", "Custom ESG Platform", "Property Management Software", "IoT Sensors"] |
+| How do you ensure data quality and accuracy?                 | Qualitative   | Multi-Select Checkboxes | Array       | ["Automated Data Validation", "Regular Audits", "Third-party Verification", "Standard Operating Procedures"] |
+| What percentage of your sustainability data is automated?    | Quantitative  | Percentage Input        | Decimal (%) | 65.0                                                         |
+| How frequently do you update sustainability data?            | Qualitative   | Dropdown                | String      | Monthly                                                      |
+| Do you use artificial intelligence or machine learning for sustainability analytics? | Qualitative   | Radio Button            | Boolean     | Yes                                                          |
+| What AI/ML applications do you use for sustainability?       | Qualitative   | Multi-Select Checkboxes | Array       | ["Energy Optimization", "Predictive Maintenance", "Risk Assessment", "Performance Benchmarking"] |
+| How do you handle data privacy and security for sustainability data? | Qualitative   | Multi-Select Checkboxes | Array       | ["Data Encryption", "Access Controls", "Regular Security Audits", "Compliance Protocols"] |
+| What sustainability data do you make publicly available?     | Qualitative   | Multi-Select Checkboxes | Array       | ["Energy Performance", "Water Usage", "Certifications", "Climate Risk Exposure"] |
+| Do you participate in sustainability data sharing initiatives? | Qualitative   | Radio Button            | Boolean     | Yes                                                          |
+| What challenges do you face in sustainability data management? | Qualitative   | Multi-Select Checkboxes | Array       | ["Data Completeness", "Standardization", "Integration Complexity", "Cost of Implementation"] |

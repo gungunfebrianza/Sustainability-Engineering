@@ -55,7 +55,7 @@ These standards provide a comprehensive framework for sustainability reporting a
 
 ------
 
-# GRI 416: Customer Health and Safety - Complete Question Set for AI-Driven Platform
+# GRI 416: Customer Health and Safety  
 
 ## Management Approach Questions
 

@@ -55,7 +55,9 @@ These standards provide a comprehensive framework for sustainability reporting a
 
 ------
 
-# GRI 413: Local Communities - Complete AI-Driven Questionnaire
+# GRI 413: Local Communities 
+
+
 
 ## Management Approach Disclosures
 

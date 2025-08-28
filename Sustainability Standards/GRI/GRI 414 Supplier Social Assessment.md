@@ -55,7 +55,9 @@ These standards provide a comprehensive framework for sustainability reporting a
 
 ------
 
-# GRI 414: Supplier Social Assessment - Complete Question Framework
+# GRI 414: Supplier Social Assessment 
+
+
 
 ## Disclosure 414-1: New Suppliers That Were Screened Using Social Criteria
 

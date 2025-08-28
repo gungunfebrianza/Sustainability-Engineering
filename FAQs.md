@@ -1,4 +1,26 @@
-# FAQs
+# Sustainable Reporting FAQs
+
+#  
+
+# Apa tujuan dari GRI 101? 
+
+
+
+# Apa arti materialitas dalam GRI 101?
+
+
+
+
+
+---
+
+
+
+# Carbon Accounting FAQs
+
+
+
+
 
 # Apa itu Faktor Emisi?
 

@@ -55,7 +55,9 @@ These standards provide a comprehensive framework for sustainability reporting a
 
 ------
 
-# GRI 418: Customer Privacy - Complete Question Set for AI-Driven Sustainability Reporting Platform
+# GRI 418: Customer Privacy 
+
+
 
 ## Management Approach Questions
 
@@ -63,7 +65,7 @@ These standards provide a comprehensive framework for sustainability reporting a
 | ------------------------------------------------------------ | --------------- | ---------------- | --------- | ------------------------------------------------------------ |
 | Does your organization have a formal customer privacy policy? | Yes/No/Partial  | Radio Button     | Boolean   | Yes                                                          |
 | What is the scope of your customer privacy policy coverage?  | Multiple Choice | Checkbox         | Array     | ["All customers", "Digital customers only", "EU customers", "Loyalty program members"] |
-| Which data protection regulations does your organization comply with? | Multiple Choice | Checkbox         | Array     | ["GDPR", "CCPA", "PIPEDA", "LGPD", "PDPA Singapore"]         |
+| Which data protection regulations does your organization comply with? | Multiple Choice | Checkbox         | Array     | ["PDP", GDPR", "CCPA", "PIPEDA", "LGPD", "PDPA Singapore"]   |
 | How frequently is your privacy policy reviewed and updated?  | Single Choice   | Dropdown         | String    | "Annually"                                                   |
 | Who is responsible for customer privacy governance in your organization? | Descriptive     | Text Area        | String    | "Chief Privacy Officer reporting to Board Privacy Committee" |
 | What privacy training programs exist for employees handling customer data? | Descriptive     | Rich Text Editor | String    | "Quarterly mandatory training covering data minimization, consent management, and breach response" |
